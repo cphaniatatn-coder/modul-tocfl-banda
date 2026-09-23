@@ -351,7 +351,7 @@ Contoh cara mengisi (hapus/ganti saat bab pertama dibuat):
     sudah diperbarui dengan 15 panel modul baru + tab Volume 2/3 (Version 6).
 - **2026-09-24 — Halaman modul di-deploy ke GitHub Pages** (versi lepas
   dari Claude Artifact, untuk dipakai bebas di konferensi):
-  - Sumber: folder `web/` (`index.html` + `style.css` + `modules.json`,
+  - Sumber: folder `web/docs/` (`index.html` + `style.css` + `modules.json`,
     data-driven — konten 34 modul dipisah jadi JSON, bukan hardcode di
     HTML). Dibangun dengan cara mengekstrak isi artifact HTML terakhir
     (Version 6) secara terprogram, bukan ditulis ulang manual.
@@ -360,6 +360,10 @@ Contoh cara mengisi (hapus/ganti saat bab pertama dibuat):
   - **Hanya folder `web/` yang diunggah** — sengaja TIDAK menyertakan
     materi sumber proyek (PDF ujian TOCFL, buku ajar, dll.) yang mungkin
     berhak cipta.
-  - Cara revisi: edit `web/modules.json` (atau html/css-nya), lalu
+  - Struktur repo: `web/docs/` = aset situs (dipublikasikan via GitHub
+    Pages, source = branch `master` folder `/docs`), `web/data/` = file
+    kerja/dokumentasi proyek (md, xlsx) yang tidak dipublikasikan sebagai
+    halaman.
+  - Cara revisi: edit `web/docs/modules.json` (atau html/css-nya), lalu
     `git add`+`commit`+`push` dari folder `D:\Modul TOCFL\web` — Pages
     otomatis rebuild ~1-2 menit.

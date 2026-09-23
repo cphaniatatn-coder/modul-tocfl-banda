@@ -5,7 +5,7 @@ Indeks file kerja proyek penyusunan modul ajar Mandarin persiapan TOCFL Band A
 untuk proyek — **bukan** materi sumber pihak ketiga (PDF ujian resmi TOCFL,
 scan buku ajar) yang sengaja tidak diunggah ke repo publik ini karena hak cipta.
 
-Halaman modul interaktifnya sendiri ada di [`../index.html`](../index.html)
+Halaman modul interaktifnya sendiri ada di [`../docs/index.html`](../docs/index.html)
 ([versi live](https://cphaniatatn-coder.github.io/modul-tocfl-banda/)).
 
 ## Metodologi & aturan kerja
