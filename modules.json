@@ -22,7 +22,7 @@
     ]
   },
   "evidence": {
-    "intro": "Kemunculan tiap tema di bagian deskriptif (Part awal Mendengar & Membaca) dicatat per set selama pembacaan penuh. Tiga tema teratas muncul diseluruh 5 set; tema lain muncul lebih jarang, biasanya cuma di bagian wacana/inferensial (Part akhir) 1–2 set saja.",
+    "intro": "Kemunculan tiap tema di bagian deskriptif (Part awal Mendengar & Membaca) dicatat per set selama pembacaan penuh. Tiga tema teratas muncul di seluruh 5 set; tema lain muncul lebih jarang, biasanya cuma di bagian wacana/inferensial (Part akhir) 1–2 set saja.",
     "chart": [
       {
         "label": "Lokasi, arah & tempat",
@@ -97,7 +97,7 @@
     ]
   },
   "module_section": {
-    "intro": "Tiap modul memakai pola dua-tahap:Tahap Amemperkenalkan kosakata konkret (tanpa kalimat), laluTahap Bmerangkainya jadi dialog pendek natural. Grammar diambil bebas dari pool level yang bersangkutan (bukan dijatah ketat per modul). Tiap volume memakai kosakata dari sheet TBCL level yang sesuai dikosakata.xlsx."
+    "intro": "Tiap modul memakai pola dua-tahap: Tahap A memperkenalkan kosakata konkret (tanpa kalimat), lalu Tahap B merangkainya jadi dialog pendek natural. Grammar diambil bebas dari pool level yang bersangkutan (bukan dijatah ketat per modul). Tiap volume memakai kosakata dari sheet TBCL level yang sesuai di kosakata.xlsx."
   },
   "volumes": [
     {
