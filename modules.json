@@ -1,0 +1,4146 @@
+{
+  "hero": {
+    "title": "Tema yang paling sering diuji, dijadikan modul ajar",
+    "lede": "Dari pembacaan penuh 5 set soal Mendengar & 5 set soal Membaca (250 + 250 butir), tiga tema muncul paling konsisten di setiap set. Modul di bawah ini — Volume 1 hingga 3 (第一級–第三級) — dirancang langsung dari temuan tersebut, satu set modul per tema per level.",
+    "meta": [
+      {
+        "n": "10",
+        "l": "naskah dibaca penuh"
+      },
+      {
+        "n": "500",
+        "l": "butir soal dianalisis"
+      },
+      {
+        "n": "3",
+        "l": "tema prioritas"
+      },
+      {
+        "n": "34",
+        "l": "modul, 3 volume"
+      }
+    ]
+  },
+  "evidence": {
+    "intro": "Kemunculan tiap tema di bagian deskriptif (Part awal Mendengar & Membaca) dicatat per set selama pembacaan penuh. Tiga tema teratas muncul diseluruh 5 set; tema lain muncul lebih jarang, biasanya cuma di bagian wacana/inferensial (Part akhir) 1–2 set saja.",
+    "chart": [
+      {
+        "label": "Lokasi, arah & tempat",
+        "sub": "位置、方向",
+        "top": true,
+        "width": "100%",
+        "value": "5 / 5"
+      },
+      {
+        "label": "Aktivitas rutin & jadwal",
+        "sub": "日常、時間",
+        "top": true,
+        "width": "100%",
+        "value": "5 / 5"
+      },
+      {
+        "label": "Makanan, belanja & harga",
+        "sub": "飲食、購物",
+        "top": true,
+        "width": "100%",
+        "value": "5 / 5"
+      },
+      {
+        "label": "Kesehatan ringan",
+        "sub": "身體、看病",
+        "top": false,
+        "width": "80%",
+        "value": "4 / 5"
+      },
+      {
+        "label": "Psikologi belanja / marketing",
+        "sub": "消費心理",
+        "top": false,
+        "width": "40%",
+        "value": "2 / 5"
+      },
+      {
+        "label": "Budaya suku asli Taiwan",
+        "sub": "原住民文化",
+        "top": false,
+        "width": "20%",
+        "value": "1 / 5"
+      },
+      {
+        "label": "Cerita keluarga emosional",
+        "sub": "家庭故事",
+        "top": false,
+        "width": "20%",
+        "value": "1 / 5"
+      }
+    ],
+    "caption": "Berdasarkan pengamatan langsung saat membaca kelima set (bukan hitungan statistik otomatis). Sumber: analisis-ujian-tocfl.md, dianalisis dengan kerangka Bachman & Palmer.",
+    "top3": [
+      {
+        "rank": "Peringkat 1",
+        "title": "Lokasi, arah & tempat",
+        "zh_title": "位置與方向",
+        "desc": "Satu-satunya tema yang muncul di hampir semua Part deskriptif kedua subtes, di semua 5 set — fondasi hampir seluruh soal level dasar."
+      },
+      {
+        "rank": "Peringkat 2",
+        "title": "Aktivitas rutin & jadwal",
+        "zh_title": "日常作息",
+        "desc": "Termasuk rutinitas harian & sekolah; muncul konsisten di Part awal kedua subtes di semua 5 set."
+      },
+      {
+        "rank": "Peringkat 3",
+        "title": "Makanan, belanja & harga",
+        "zh_title": "飲食與購物",
+        "desc": "Rentang levelnya paling lebar (TBCL 1–3) — dipakai di soal dasar maupun soal lanjut dengan grammar korelatif."
+      }
+    ]
+  },
+  "module_section": {
+    "intro": "Tiap modul memakai pola dua-tahap:Tahap Amemperkenalkan kosakata konkret (tanpa kalimat), laluTahap Bmerangkainya jadi dialog pendek natural. Grammar diambil bebas dari pool level yang bersangkutan (bukan dijatah ketat per modul). Tiap volume memakai kosakata dari sheet TBCL level yang sesuai dikosakata.xlsx."
+  },
+  "volumes": [
+    {
+      "id": "vol-1",
+      "label": "Volume 1 · 第一級",
+      "modules": [
+        {
+          "id": "a1",
+          "tab_label": "A1 · Lokasi & Arah",
+          "title": "Modul A1 — Lokasi, arah & tempat",
+          "zh_title": "地點、方向與場所",
+          "grammar": "在1 · 地點表達",
+          "vocab": [
+            {
+              "hz": "飛機",
+              "py": "fēijī",
+              "id": "pesawat"
+            },
+            {
+              "hz": "公車",
+              "py": "gōngchē",
+              "id": "bus"
+            },
+            {
+              "hz": "火車",
+              "py": "huǒchē",
+              "id": "kereta"
+            },
+            {
+              "hz": "計程車",
+              "py": "jìchéngchē",
+              "id": "taksi"
+            },
+            {
+              "hz": "開車",
+              "py": "kāichē",
+              "id": "menyetir"
+            },
+            {
+              "hz": "那裡",
+              "py": "nàlǐ",
+              "id": "di sana"
+            },
+            {
+              "hz": "前面",
+              "py": "qiánmiàn",
+              "id": "depan"
+            },
+            {
+              "hz": "旁邊",
+              "py": "pángbiān",
+              "id": "samping"
+            },
+            {
+              "hz": "裡面",
+              "py": "lǐmiàn",
+              "id": "di dalam"
+            },
+            {
+              "hz": "路",
+              "py": "lù",
+              "id": "jalan"
+            }
+          ],
+          "supplementary": "國家, 外, 外頭, 外國, 地方, 附近, 山, 門, 門口, 天氣, 冷, 熱, 風, 下雨, 雨, 空氣",
+          "dialogs": [
+            {
+              "title": "B1 — Naik apa ke mana",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳要坐飛機嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不要，我要坐火車。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "那我坐公車去車站接你，好嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，謝謝你！"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Di mana tempat ini",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "那裡是什麼地方？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "那裡是餐廳，餐廳前面有路。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "餐廳裡面人多嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不多，餐廳旁邊很方便。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a2",
+          "tab_label": "A2 · Aktivitas & Jadwal",
+          "title": "Modul A2 — Aktivitas rutin, sekolah & jadwal",
+          "zh_title": "日常作息與學校生活",
+          "grammar": "這/那/哪 · 誰 · 哪裡 · 時間表達",
+          "vocab": [
+            {
+              "hz": "上課",
+              "py": "shàngkè",
+              "id": "masuk kelas"
+            },
+            {
+              "hz": "下課",
+              "py": "xiàkè",
+              "id": "keluar kelas"
+            },
+            {
+              "hz": "起床",
+              "py": "qǐchuáng",
+              "id": "bangun tidur"
+            },
+            {
+              "hz": "穿",
+              "py": "chuān",
+              "id": "memakai"
+            },
+            {
+              "hz": "運動",
+              "py": "yùndòng",
+              "id": "olahraga"
+            },
+            {
+              "hz": "學校",
+              "py": "xuéxiào",
+              "id": "sekolah"
+            },
+            {
+              "hz": "老師",
+              "py": "lǎoshī",
+              "id": "guru"
+            },
+            {
+              "hz": "功課",
+              "py": "gōngkè",
+              "id": "PR"
+            },
+            {
+              "hz": "考試",
+              "py": "kǎoshì",
+              "id": "ujian"
+            },
+            {
+              "hz": "課",
+              "py": "kè",
+              "id": "pelajaran"
+            }
+          ],
+          "supplementary": "大學, 英文, 教室, 句子, 中文, 電視, 公園, 樓, 便宜, 唱歌, 電影, 球, 跳舞, 看, 衣服",
+          "dialogs": [
+            {
+              "title": "B1 — Di sekolah",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這是學校，那是教室。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "你上什麼課？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我上英文課，今天有考試，我很忙。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "老師教什麼？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "老師教英文，也教句子。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Rutinitas harian",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳幾點起床？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我七點起床，也去上課。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳今天穿什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我穿便宜的衣服。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "下課以後妳要做什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我要運動，也要寫功課。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a3",
+          "tab_label": "A3 · Makanan & Belanja",
+          "title": "Modul A3 — Makanan, belanja & harga",
+          "zh_title": "飲食與購物",
+          "grammar": "不 · A-not-A · 數+量 · 稱數法",
+          "vocab": [
+            {
+              "hz": "茶",
+              "py": "chá",
+              "id": "teh"
+            },
+            {
+              "hz": "咖啡",
+              "py": "kāfēi",
+              "id": "kopi"
+            },
+            {
+              "hz": "麵",
+              "py": "miàn",
+              "id": "mi"
+            },
+            {
+              "hz": "菜",
+              "py": "cài",
+              "id": "sayur/masakan"
+            },
+            {
+              "hz": "水果",
+              "py": "shuǐguǒ",
+              "id": "buah"
+            },
+            {
+              "hz": "肉",
+              "py": "ròu",
+              "id": "daging"
+            },
+            {
+              "hz": "魚",
+              "py": "yú",
+              "id": "ikan"
+            },
+            {
+              "hz": "餐廳",
+              "py": "cāntīng",
+              "id": "restoran"
+            },
+            {
+              "hz": "碗",
+              "py": "wǎn",
+              "id": "mangkuk"
+            },
+            {
+              "hz": "甜",
+              "py": "tián",
+              "id": "manis"
+            }
+          ],
+          "supplementary": "包子, 冰, 蛋, 酒, 筷子, 麵包, 雞, 牛, 牛奶, 湯, 小吃, 杯, 飽, 餓, 早餐, 午餐, 晚餐, 豬, 飯",
+          "dialogs": [
+            {
+              "title": "B1 — Pesan makanan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳要喝茶嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，我要一杯茶。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我要一杯咖啡，也要一碗麵。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我們也要菜和水果。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Di restoran",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "這家餐廳的魚好不好？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "很好，魚湯也很好。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我要肉，你要嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，這個很甜，我喜歡。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m1",
+          "tab_label": "M1 · Perkenalan Diri",
+          "title": "Modul M1 — Perkenalan diri & keluarga",
+          "zh_title": "自我介紹與家人",
+          "grammar": "繫動詞(是) · 嗎 · 什麼",
+          "vocab": [
+            {
+              "hz": "姓",
+              "py": "xìng",
+              "id": "bermarga"
+            },
+            {
+              "hz": "家人",
+              "py": "jiārén",
+              "id": "anggota keluarga"
+            },
+            {
+              "hz": "生日",
+              "py": "shēngrì",
+              "id": "ulang tahun"
+            },
+            {
+              "hz": "兒子",
+              "py": "érzi",
+              "id": "putra"
+            },
+            {
+              "hz": "女兒",
+              "py": "nǚér",
+              "id": "putri"
+            },
+            {
+              "hz": "台灣人",
+              "py": "táiwānrén",
+              "id": "orang Taiwan"
+            },
+            {
+              "hz": "介紹",
+              "py": "jièshào",
+              "id": "memperkenalkan"
+            },
+            {
+              "hz": "對不起",
+              "py": "duìbùqǐ",
+              "id": "maaf"
+            },
+            {
+              "hz": "工作",
+              "py": "gōngzuò",
+              "id": "pekerjaan"
+            },
+            {
+              "hz": "手機",
+              "py": "shǒujī",
+              "id": "ponsel"
+            },
+            {
+              "hz": "貴",
+              "py": "guì",
+              "id": "mahal/terhormat"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Berkenalan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "你好，我姓李，叫大同。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "你好，我姓王，叫美美。你是台灣人嗎？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "對，我是台灣人。你呢？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我也是台灣人。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Keluarga & ulang tahun",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "大同，你有兒子，也有女兒嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，我有兒子，也有女兒，他們是我家人。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "你工作忙嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不忙，今天是我生日！"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "生日快樂！"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Memperkenalkan orang lain",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "對不起！"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "沒關係。大同，我介紹你給老王。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你好，大同！你有手機嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有，這是我的手機。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m6",
+          "tab_label": "M6 · Kesehatan & Tubuh",
+          "title": "Modul M6 — Kesehatan & tubuh",
+          "zh_title": "健康與身體",
+          "grammar": "表所有「的」 · 「的」省略用法 · A-not-A",
+          "vocab": [
+            {
+              "hz": "醫生",
+              "py": "yīshēng",
+              "id": "dokter"
+            },
+            {
+              "hz": "病",
+              "py": "bìng",
+              "id": "penyakit"
+            },
+            {
+              "hz": "耳朵",
+              "py": "ěrduo",
+              "id": "telinga"
+            },
+            {
+              "hz": "感冒",
+              "py": "gǎnmào",
+              "id": "pilek"
+            },
+            {
+              "hz": "看病",
+              "py": "kànbìng",
+              "id": "berobat"
+            },
+            {
+              "hz": "生病",
+              "py": "shēngbìng",
+              "id": "sakit"
+            },
+            {
+              "hz": "身體",
+              "py": "shēntǐ",
+              "id": "tubuh"
+            },
+            {
+              "hz": "休息",
+              "py": "xiūxí",
+              "id": "istirahat"
+            },
+            {
+              "hz": "眼睛",
+              "py": "yǎnjīng",
+              "id": "mata"
+            },
+            {
+              "hz": "藥",
+              "py": "yào",
+              "id": "obat"
+            },
+            {
+              "hz": "嘴巴",
+              "py": "zuǐba",
+              "id": "mulut"
+            },
+            {
+              "hz": "累",
+              "py": "lèi",
+              "id": "lelah"
+            },
+            {
+              "hz": "痛",
+              "py": "tòng",
+              "id": "nyeri"
+            },
+            {
+              "hz": "鼻子",
+              "py": "bízi",
+              "id": "hidung"
+            },
+            {
+              "hz": "腳",
+              "py": "jiǎo",
+              "id": "kaki"
+            },
+            {
+              "hz": "頭",
+              "py": "tóu",
+              "id": "kepala"
+            }
+          ],
+          "supplementary": "手",
+          "dialogs": [
+            {
+              "title": "B1 — Sakit & berobat",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳生病嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我感冒，這是小病，沒關係。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳應該看醫生。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，我要去看病，也要買藥。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Tubuh",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳的耳朵和眼睛很漂亮。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "謝謝你！你很瘦，也不胖。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "對，我常常休息，身體很好。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "太好了！"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Mulut",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "你嘴巴很大！"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，我喜歡吃東西。"
+                }
+              ]
+            },
+            {
+              "title": "B4 — Lelah & nyeri",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "大同，你累不累？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有一點累，頭也有一點痛。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "鼻子痛不痛？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "鼻子不痛。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "腳痛不痛？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "腳很痛。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m8",
+          "tab_label": "M8 · Keluarga & Orang Lain",
+          "title": "Modul M8 — Keluarga & orang lain",
+          "zh_title": "家人與他人",
+          "grammar": "繫動詞(是) · 表所有「的」 · 這/那 · 什麼 · 嗎 · A-not-A",
+          "vocab": [
+            {
+              "hz": "爸爸",
+              "py": "bàba",
+              "id": "ayah"
+            },
+            {
+              "hz": "媽媽",
+              "py": "māma",
+              "id": "ibu"
+            },
+            {
+              "hz": "哥哥",
+              "py": "gēge",
+              "id": "kakak laki-laki"
+            },
+            {
+              "hz": "姊姊",
+              "py": "jiějie",
+              "id": "kakak perempuan"
+            },
+            {
+              "hz": "弟弟",
+              "py": "dìdi",
+              "id": "adik laki-laki"
+            },
+            {
+              "hz": "妹妹",
+              "py": "mèimei",
+              "id": "adik perempuan"
+            },
+            {
+              "hz": "孩子",
+              "py": "háizi",
+              "id": "anak"
+            },
+            {
+              "hz": "小孩",
+              "py": "xiǎohái",
+              "id": "anak kecil"
+            },
+            {
+              "hz": "朋友",
+              "py": "péngyǒu",
+              "id": "teman"
+            },
+            {
+              "hz": "先生",
+              "py": "xiānshēng",
+              "id": "tuan/suami"
+            },
+            {
+              "hz": "太太",
+              "py": "tàitai",
+              "id": "nyonya/istri"
+            },
+            {
+              "hz": "小姐",
+              "py": "xiǎojiě",
+              "id": "nona"
+            },
+            {
+              "hz": "同學",
+              "py": "tóngxué",
+              "id": "teman sekelas"
+            },
+            {
+              "hz": "學生",
+              "py": "xuéshēng",
+              "id": "murid"
+            },
+            {
+              "hz": "姓名",
+              "py": "xìngmíng",
+              "id": "nama lengkap"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Keluarga inti",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這是我爸爸，那是我媽媽。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "你有沒有哥哥？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "沒有哥哥，我有一個姊姊。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我有弟弟，也有妹妹，他們是小孩。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Teman",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這是我朋友，王小姐。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "王小姐",
+                  "text": "你好，我姓王，是學生。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "她是我同學，我們是朋友。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "你們的姓名是什麼？"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Status keluarga",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這是你太太嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不是，這是我孩子。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你是先生，她是誰？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "她是我的孩子，也是學生。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m9",
+          "tab_label": "M9 · Deskripsi Orang",
+          "title": "Modul M9 — Deskripsi orang & penampilan",
+          "zh_title": "外貌描述",
+          "grammar": "不 · 嗎",
+          "vocab": [
+            {
+              "hz": "矮",
+              "py": "ǎi",
+              "id": "pendek (orang)"
+            },
+            {
+              "hz": "高",
+              "py": "gāo",
+              "id": "tinggi"
+            },
+            {
+              "hz": "胖",
+              "py": "pàng",
+              "id": "gemuk"
+            },
+            {
+              "hz": "瘦",
+              "py": "shòu",
+              "id": "kurus"
+            },
+            {
+              "hz": "舒服",
+              "py": "shūfu",
+              "id": "nyaman"
+            },
+            {
+              "hz": "不錯",
+              "py": "búcuò",
+              "id": "lumayan bagus"
+            },
+            {
+              "hz": "非常",
+              "py": "fēicháng",
+              "id": "sangat"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Tinggi & berat badan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，你看，那個人很高。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對啊，他不矮。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我覺得他有一點胖。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不會，他不胖，也不瘦。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Menilai",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這件衣服舒服嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "很舒服，也不錯。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "真的嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "真的，我非常喜歡。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m10",
+          "tab_label": "M10 · Barang & Perabot",
+          "title": "Modul M10 — Barang & perabot",
+          "zh_title": "物品與家具",
+          "grammar": "表所有「的」 · 什麼 · 在1/地點表達 · 哪（裡/兒） · 嗎",
+          "vocab": [
+            {
+              "hz": "電話",
+              "py": "diànhuà",
+              "id": "telepon"
+            },
+            {
+              "hz": "話",
+              "py": "huà",
+              "id": "perkataan"
+            },
+            {
+              "hz": "書",
+              "py": "shū",
+              "id": "buku"
+            },
+            {
+              "hz": "筆",
+              "py": "bǐ",
+              "id": "pena"
+            },
+            {
+              "hz": "杯子",
+              "py": "bēizi",
+              "id": "gelas"
+            },
+            {
+              "hz": "店",
+              "py": "diàn",
+              "id": "toko"
+            },
+            {
+              "hz": "電腦",
+              "py": "diànnǎo",
+              "id": "komputer"
+            },
+            {
+              "hz": "房間",
+              "py": "fángjiān",
+              "id": "kamar"
+            },
+            {
+              "hz": "房子",
+              "py": "fángzi",
+              "id": "rumah"
+            },
+            {
+              "hz": "椅子",
+              "py": "yǐzi",
+              "id": "kursi"
+            },
+            {
+              "hz": "桌子",
+              "py": "zhuōzi",
+              "id": "meja"
+            },
+            {
+              "hz": "鞋子",
+              "py": "xiézi",
+              "id": "sepatu"
+            },
+            {
+              "hz": "紙",
+              "py": "zhǐ",
+              "id": "kertas"
+            },
+            {
+              "hz": "畫",
+              "py": "huà",
+              "id": "lukisan"
+            },
+            {
+              "hz": "花",
+              "py": "huā",
+              "id": "bunga"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Di dalam kamar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "大同，你的房子有幾個房間？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有三個房間，房間裡有桌子和椅子。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "桌子上有什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有電腦、書和筆。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Mencari barang",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳的鞋子在哪裡？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "在門口。桌子上還有一枝筆和一張紙。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "牆上的畫很漂亮。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "謝謝，那是我畫的。"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Di toko",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這家店有賣電話嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有，也有杯子和花。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "我想打電話跟你說話。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m11",
+          "tab_label": "M11 · Dengar & Lihat",
+          "title": "Modul M11 — Mendengar & melihat",
+          "zh_title": "聽與看",
+          "grammar": "嗎 · 在1 · 表所有「的」 · 什麼 · 繫動詞(是)",
+          "vocab": [
+            {
+              "hz": "聽",
+              "py": "tīng",
+              "id": "mendengar"
+            },
+            {
+              "hz": "聽見",
+              "py": "tīngjiàn",
+              "id": "terdengar"
+            },
+            {
+              "hz": "看到",
+              "py": "kàndào",
+              "id": "terlihat"
+            },
+            {
+              "hz": "看見",
+              "py": "kànjiàn",
+              "id": "melihat"
+            },
+            {
+              "hz": "懂",
+              "py": "dǒng",
+              "id": "mengerti"
+            },
+            {
+              "hz": "知道",
+              "py": "zhīdào",
+              "id": "tahu"
+            },
+            {
+              "hz": "覺得",
+              "py": "juéde",
+              "id": "merasa"
+            },
+            {
+              "hz": "意思",
+              "py": "yìsi",
+              "id": "arti"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Tidak mengerti",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳聽我說。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我在聽，可是我聽不懂。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "這句話的意思是什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我也不知道。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Melihat & mendengar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你看到大同嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "看到，我看見他在教室。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "我剛剛沒聽見。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我覺得他很忙。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m12",
+          "tab_label": "M12 · Bicara & Bertanya",
+          "title": "Modul M12 — Berbicara & bertanya",
+          "zh_title": "說話與提問",
+          "grammar": "嗎 · 什麼",
+          "vocab": [
+            {
+              "hz": "說",
+              "py": "shuō",
+              "id": "berkata"
+            },
+            {
+              "hz": "寫",
+              "py": "xiě",
+              "id": "menulis"
+            },
+            {
+              "hz": "讀",
+              "py": "dú",
+              "id": "membaca"
+            },
+            {
+              "hz": "唸",
+              "py": "niàn",
+              "id": "melafalkan"
+            },
+            {
+              "hz": "告訴",
+              "py": "gàosù",
+              "id": "memberitahu"
+            },
+            {
+              "hz": "說話",
+              "py": "shuōhuà",
+              "id": "berbicara"
+            },
+            {
+              "hz": "問",
+              "py": "wèn",
+              "id": "bertanya"
+            },
+            {
+              "hz": "問題",
+              "py": "wèntí",
+              "id": "pertanyaan"
+            },
+            {
+              "hz": "事",
+              "py": "shì",
+              "id": "urusan"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Membaca & menulis",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳說中文嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "說，我也寫中文字。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳讀什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我讀書，也唸句子。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Bertanya",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "大同，我有一個問題，我要問你。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，你問，我告訴你。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這件事，你說給我聽。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，我說話，你也要聽。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m13",
+          "tab_label": "M13 · Aktivitas & Gerak",
+          "title": "Modul M13 — Aktivitas harian & gerak",
+          "zh_title": "日常動作",
+          "grammar": "A-not-A · 誰 · 不 · 嗎 · 什麼",
+          "vocab": [
+            {
+              "hz": "愛",
+              "py": "ài",
+              "id": "cinta/suka"
+            },
+            {
+              "hz": "帶",
+              "py": "dài",
+              "id": "membawa"
+            },
+            {
+              "hz": "拿",
+              "py": "ná",
+              "id": "mengambil"
+            },
+            {
+              "hz": "來",
+              "py": "lái",
+              "id": "datang"
+            },
+            {
+              "hz": "走",
+              "py": "zǒu",
+              "id": "berjalan"
+            },
+            {
+              "hz": "走路",
+              "py": "zǒulù",
+              "id": "berjalan kaki"
+            },
+            {
+              "hz": "玩",
+              "py": "wán",
+              "id": "bermain"
+            },
+            {
+              "hz": "進",
+              "py": "jìn",
+              "id": "masuk"
+            },
+            {
+              "hz": "出",
+              "py": "chū",
+              "id": "keluar"
+            },
+            {
+              "hz": "等",
+              "py": "děng",
+              "id": "menunggu"
+            },
+            {
+              "hz": "睡覺",
+              "py": "shuìjiào",
+              "id": "tidur"
+            },
+            {
+              "hz": "找",
+              "py": "zhǎo",
+              "id": "mencari"
+            },
+            {
+              "hz": "怕",
+              "py": "pà",
+              "id": "takut"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Ajak main",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳愛不愛吃水果？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "愛，我也愛玩。你呢？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我要出去玩，妳要不要一起走路去？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，我拿東西就來。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Menunggu",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你在等誰？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我在等美美，她說她會來。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你不怕冷嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不怕，我帶衣服。"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Mencari barang",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "大同，你在找什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我找不到我的書。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "你走進房間看看，可能在桌子上。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，我進去找，也要睡覺。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m14",
+          "tab_label": "M14 · Warna & Ukuran",
+          "title": "Modul M14 — Warna & ukuran benda",
+          "zh_title": "顏色與大小",
+          "grammar": "「的」省略用法 · 這/那 · 不 · 嗎",
+          "vocab": [
+            {
+              "hz": "黑",
+              "py": "hēi",
+              "id": "hitam"
+            },
+            {
+              "hz": "紅",
+              "py": "hóng",
+              "id": "merah"
+            },
+            {
+              "hz": "白",
+              "py": "bái",
+              "id": "putih"
+            },
+            {
+              "hz": "新",
+              "py": "xīn",
+              "id": "baru"
+            },
+            {
+              "hz": "舊",
+              "py": "jiù",
+              "id": "lama/usang"
+            },
+            {
+              "hz": "短",
+              "py": "duǎn",
+              "id": "pendek"
+            },
+            {
+              "hz": "長",
+              "py": "cháng",
+              "id": "panjang"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Warna",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳喜歡黑色嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不喜歡，我喜歡紅色。這件是紅的，那件是白的。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "這件新衣服是我的。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "那件呢？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "那件是舊的，不是新的。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Ukuran",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這條褲子很短，那條褲子很長。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "短的是我的，長的是你的嗎？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "對，長的是我的。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m15",
+          "tab_label": "M15 · Sifat & Penilaian",
+          "title": "Modul M15 — Sifat & penilaian",
+          "zh_title": "性質與評價",
+          "grammar": "A-not-A · 不 · 嗎 · 繫動詞(是)+「的」省略用法",
+          "vocab": [
+            {
+              "hz": "方便",
+              "py": "fāngbiàn",
+              "id": "praktis"
+            },
+            {
+              "hz": "難",
+              "py": "nán",
+              "id": "sulit"
+            },
+            {
+              "hz": "容易",
+              "py": "róngyì",
+              "id": "mudah"
+            },
+            {
+              "hz": "慢",
+              "py": "màn",
+              "id": "lambat"
+            },
+            {
+              "hz": "錯",
+              "py": "cuò",
+              "id": "salah"
+            },
+            {
+              "hz": "低",
+              "py": "dī",
+              "id": "rendah"
+            },
+            {
+              "hz": "少",
+              "py": "shǎo",
+              "id": "sedikit"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Menilai bahasa",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，中文難不難？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不難，很容易，我很喜歡。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳寫字快嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不快，我很慢。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Menilai tempat & barang",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "坐捷運方便嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "方便，坐公車不方便。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這個答案對不對？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不對，這個是錯的。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "桌子低不低？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "很低，椅子也很少。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vol-2",
+      "label": "Volume 2 · 第二級",
+      "modules": [
+        {
+          "id": "b1",
+          "tab_label": "B1 · Lokasi & Arah",
+          "title": "Modul B1 — Lokasi, arah & tempat (lanjut)",
+          "zh_title": "地點與交通（進階）",
+          "grammar": "怎麼 · 從...到... · A離B",
+          "vocab": [
+            {
+              "hz": "車站",
+              "py": "chēzhàn",
+              "id": "stasiun"
+            },
+            {
+              "hz": "機場",
+              "py": "jīchǎng",
+              "id": "bandara"
+            },
+            {
+              "hz": "街",
+              "py": "jiē",
+              "id": "jalan/kawasan"
+            },
+            {
+              "hz": "路口",
+              "py": "lùkǒu",
+              "id": "persimpangan"
+            },
+            {
+              "hz": "馬路",
+              "py": "mǎlù",
+              "id": "jalan raya"
+            },
+            {
+              "hz": "十字路口",
+              "py": "shízìlùkǒu",
+              "id": "perempatan"
+            },
+            {
+              "hz": "司機",
+              "py": "sījī",
+              "id": "sopir"
+            },
+            {
+              "hz": "飯店",
+              "py": "fàndiàn",
+              "id": "hotel"
+            },
+            {
+              "hz": "腳踏車",
+              "py": "jiǎotàchē",
+              "id": "sepeda"
+            },
+            {
+              "hz": "汽車",
+              "py": "qìchē",
+              "id": "mobil"
+            }
+          ],
+          "supplementary": "旅行, 報紙, 巴士, 茶館, 風景, 公共汽車, 雪",
+          "dialogs": [
+            {
+              "title": "B1 — Menuju stasiun",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "請問，車站怎麼走？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "從這裡到車站不遠，你可以坐計程車或腳踏車去。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "機場離這裡遠嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "機場離市區有點遠，你要坐飛機的話最好早點出門。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Mengantar ke hotel",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳的飯店在哪一條街？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "在馬路對面，過了十字路口就到了。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "那我開汽車送妳，好嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，可是路口車很多，你要小心，司機開車也要慢一點。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b2",
+          "tab_label": "B2 · Aktivitas & Jadwal",
+          "title": "Modul B2 — Aktivitas rutin, sekolah & jadwal (lanjut)",
+          "zh_title": "學校生活與作息（進階）",
+          "grammar": "V了1 · 以後 · 一...就...",
+          "vocab": [
+            {
+              "hz": "上學",
+              "py": "shàngxué",
+              "id": "berangkat sekolah"
+            },
+            {
+              "hz": "開學",
+              "py": "kāixué",
+              "id": "mulai semester"
+            },
+            {
+              "hz": "作業",
+              "py": "zuòyè",
+              "id": "PR/tugas"
+            },
+            {
+              "hz": "考",
+              "py": "kǎo",
+              "id": "menguji/ujian"
+            },
+            {
+              "hz": "年級",
+              "py": "niánjí",
+              "id": "tingkat kelas"
+            },
+            {
+              "hz": "用功",
+              "py": "yònggōng",
+              "id": "rajin belajar"
+            },
+            {
+              "hz": "上網",
+              "py": "shàngwǎng",
+              "id": "berselancar internet"
+            },
+            {
+              "hz": "洗澡",
+              "py": "xǐzǎo",
+              "id": "mandi"
+            },
+            {
+              "hz": "租",
+              "py": "zū",
+              "id": "menyewa"
+            },
+            {
+              "hz": "書包",
+              "py": "shūbāo",
+              "id": "tas sekolah"
+            }
+          ],
+          "supplementary": "市場, 屋子, 搬家, 冰箱, 窗戶, 大樓, 大門, 電梯, 房租, 房東, 飯廳, 客廳, 冷氣, 樓上, 樓梯, 樓下, 室友, 書店, 書房, 宿舍, 洗手間, 成績, 方法, 練習, 本子, 德文, 法文, 課本, 念書, 日文, 日語, 圖書館, 英語, 字典",
+          "dialogs": [
+            {
+              "title": "B1 — Rajin belajar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳今天用功嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我寫了作業，也上網查了資料。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳幾年級？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我三年級，下星期就開學了。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Sebelum dan sesudah sekolah",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳一上學就洗澡嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不是，我先背書包去上學，回家以後才洗澡。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳今天要考試嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，老師說我們要租教室考。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b3",
+          "tab_label": "B3 · Makanan & Belanja",
+          "title": "Modul B3 — Makanan, belanja & harga (lanjut)",
+          "zh_title": "飲食與購物（進階）",
+          "grammar": "太Vs了 · 幾/多少 · 多/少",
+          "vocab": [
+            {
+              "hz": "菜單",
+              "py": "càidān",
+              "id": "menu"
+            },
+            {
+              "hz": "冰淇淋",
+              "py": "bīngqílín",
+              "id": "es krim"
+            },
+            {
+              "hz": "蛋糕",
+              "py": "dàngāo",
+              "id": "kue"
+            },
+            {
+              "hz": "點心",
+              "py": "diǎnxīn",
+              "id": "camilan"
+            },
+            {
+              "hz": "果汁",
+              "py": "guǒzhī",
+              "id": "jus"
+            },
+            {
+              "hz": "辣",
+              "py": "là",
+              "id": "pedas"
+            },
+            {
+              "hz": "甜點",
+              "py": "tiándiǎn",
+              "id": "makanan penutup"
+            },
+            {
+              "hz": "鹹",
+              "py": "xián",
+              "id": "asin"
+            },
+            {
+              "hz": "超市",
+              "py": "chāoshì",
+              "id": "supermarket"
+            },
+            {
+              "hz": "百貨公司",
+              "py": "bǎihuògōngsī",
+              "id": "mal"
+            }
+          ],
+          "supplementary": "味道, 冰塊, 炒, 叉子, 湯匙, 刀子, 漢堡, 紅茶, 火腿, 餃子, 烤, 可樂, 饅頭, 奶茶, 盤子, 啤酒, 蘋果, 青菜, 汽水, 熱狗, 三明治, 酸, 糖, 香蕉, 西瓜, 客人, 老闆, 超商, 大衣, 褲子, 帽子, 皮包, 裙子, 商店, 手錶, 外套, 信用卡, 眼鏡, 夜市",
+          "dialogs": [
+            {
+              "title": "B1 — Pesan di restoran",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這家餐廳的菜單有多少道菜？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "很多，我要一份點心和一杯果汁。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "辣的還是不辣的？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不要太辣，我要鹹一點的。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Belanja jajan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，超市的冰淇淋太貴了，我們去百貨公司看看。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，那裡的蛋糕跟甜點也很有名。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b4",
+          "tab_label": "B4 · Olahraga",
+          "title": "Modul B4 — Olahraga",
+          "zh_title": "運動",
+          "grammar": "會1 · V過1",
+          "vocab": [
+            {
+              "hz": "比賽",
+              "py": "bǐsài",
+              "id": "pertandingan"
+            },
+            {
+              "hz": "棒球",
+              "py": "bàngqiú",
+              "id": "bisbol"
+            },
+            {
+              "hz": "籃球",
+              "py": "lánqiú",
+              "id": "basket"
+            },
+            {
+              "hz": "足球",
+              "py": "zúqiú",
+              "id": "sepak bola"
+            },
+            {
+              "hz": "網球",
+              "py": "wǎngqiú",
+              "id": "tenis"
+            },
+            {
+              "hz": "游泳",
+              "py": "yóuyǒng",
+              "id": "berenang"
+            },
+            {
+              "hz": "跑步",
+              "py": "pǎobù",
+              "id": "lari"
+            },
+            {
+              "hz": "慢跑",
+              "py": "mànpǎo",
+              "id": "jogging"
+            },
+            {
+              "hz": "游",
+              "py": "yóu",
+              "id": "berenang (kk)"
+            },
+            {
+              "hz": "游泳池",
+              "py": "yóuyǒngchí",
+              "id": "kolam renang"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Olahraga favorit",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳會不會游泳？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "會，我常常去游泳池游。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳打過籃球嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "打過，我也喜歡棒球和網球。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Lari & pertandingan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你今天跑步了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "跑了，我慢跑了半個小時。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "足球比賽你要去看嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "要，我很想看比賽。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b5",
+          "tab_label": "B5 · Hiburan",
+          "title": "Modul B5 — Hiburan & waktu luang",
+          "zh_title": "休閒娛樂",
+          "grammar": "可以1 · 呢1",
+          "vocab": [
+            {
+              "hz": "故事",
+              "py": "gùshì",
+              "id": "cerita"
+            },
+            {
+              "hz": "活動",
+              "py": "huódòng",
+              "id": "kegiatan"
+            },
+            {
+              "hz": "音樂",
+              "py": "yīnyuè",
+              "id": "musik"
+            },
+            {
+              "hz": "照片",
+              "py": "zhàopiàn",
+              "id": "foto"
+            },
+            {
+              "hz": "票",
+              "py": "piào",
+              "id": "tiket"
+            },
+            {
+              "hz": "門票",
+              "py": "ménpiào",
+              "id": "tiket masuk"
+            },
+            {
+              "hz": "網站",
+              "py": "wǎngzhàn",
+              "id": "situs web"
+            },
+            {
+              "hz": "野餐",
+              "py": "yěcān",
+              "id": "piknik"
+            },
+            {
+              "hz": "有空",
+              "py": "yǒukòng",
+              "id": "ada waktu luang"
+            },
+            {
+              "hz": "旅館",
+              "py": "lǚguǎn",
+              "id": "penginapan"
+            }
+          ],
+          "supplementary": "貓, 鳥, 照相",
+          "dialogs": [
+            {
+              "title": "B1 — Ajak piknik",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳有空嗎？我們去野餐，好嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好啊，我可以帶音樂和照片。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我上網站買門票和票。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "這個活動有意思嗎？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "有意思，也有很多故事可以聽。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Di penginapan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你們住哪個旅館？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我們住這家，妳呢？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "野餐的地方有貓和鳥嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "有，我可以照相。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b6",
+          "tab_label": "B6 · Keluarga Besar",
+          "title": "Modul B6 — Keluarga besar & info pribadi",
+          "zh_title": "大家庭與個人資料",
+          "grammar": "N+們 · 也2",
+          "vocab": [
+            {
+              "hz": "阿姨",
+              "py": "āyí",
+              "id": "bibi"
+            },
+            {
+              "hz": "奶奶",
+              "py": "nǎinai",
+              "id": "nenek"
+            },
+            {
+              "hz": "叔叔",
+              "py": "shúshu",
+              "id": "paman"
+            },
+            {
+              "hz": "爺爺",
+              "py": "yéye",
+              "id": "kakek"
+            },
+            {
+              "hz": "家庭",
+              "py": "jiātíng",
+              "id": "keluarga"
+            },
+            {
+              "hz": "高中",
+              "py": "gāozhōng",
+              "id": "SMA"
+            },
+            {
+              "hz": "小學",
+              "py": "xiǎoxué",
+              "id": "SD"
+            },
+            {
+              "hz": "語言",
+              "py": "yǔyán",
+              "id": "bahasa"
+            },
+            {
+              "hz": "地址",
+              "py": "dìzhǐ",
+              "id": "alamat"
+            },
+            {
+              "hz": "年輕",
+              "py": "niánqīng",
+              "id": "muda"
+            }
+          ],
+          "supplementary": "狗, 馬",
+          "dialogs": [
+            {
+              "title": "B1 — Keluarga besar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這是我家庭，爺爺、奶奶、叔叔、阿姨他們都在。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "你們家庭很大！他們很年輕嗎？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "爺爺奶奶不年輕，叔叔阿姨們也很年輕。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Data pribadi",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你的地址是什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我家地址在學校附近。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你上高中還是小學？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我上高中，妹妹上小學。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你會說幾種語言？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b7",
+          "tab_label": "B7 · Kesehatan Lanjut",
+          "title": "Modul B7 — Kesehatan (lanjut)",
+          "zh_title": "健康進階",
+          "grammar": "有（一）點Vs · 能2",
+          "vocab": [
+            {
+              "hz": "病人",
+              "py": "bìngrén",
+              "id": "pasien"
+            },
+            {
+              "hz": "健康",
+              "py": "jiànkāng",
+              "id": "sehat"
+            },
+            {
+              "hz": "臉",
+              "py": "liǎn",
+              "id": "wajah"
+            },
+            {
+              "hz": "醫院",
+              "py": "yīyuàn",
+              "id": "rumah sakit"
+            },
+            {
+              "hz": "肚子",
+              "py": "dùzi",
+              "id": "perut"
+            },
+            {
+              "hz": "護士",
+              "py": "hùshì",
+              "id": "perawat"
+            },
+            {
+              "hz": "頭髮",
+              "py": "tóufǎ",
+              "id": "rambut"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Ke rumah sakit",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳的臉有一點紅，妳生病了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我肚子有一點痛，要去醫院。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "醫院的護士人很好。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，她說我不能吃太多，要多休息才能健康。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Menjenguk pasien",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "那個病人是誰？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "他是我朋友，他的頭髮很長。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b8",
+          "tab_label": "B8 · Kerja & Layanan Publik",
+          "title": "Modul B8 — Pekerjaan & layanan publik",
+          "zh_title": "工作與公共服務",
+          "grammar": "用 · 幫",
+          "vocab": [
+            {
+              "hz": "辦法",
+              "py": "bànfǎ",
+              "id": "cara"
+            },
+            {
+              "hz": "公司",
+              "py": "gōngsī",
+              "id": "perusahaan"
+            },
+            {
+              "hz": "進步",
+              "py": "jìnbù",
+              "id": "kemajuan"
+            },
+            {
+              "hz": "辦公室",
+              "py": "bàngōngshì",
+              "id": "kantor"
+            },
+            {
+              "hz": "上班",
+              "py": "shàngbān",
+              "id": "masuk kerja"
+            },
+            {
+              "hz": "下班",
+              "py": "xiàbān",
+              "id": "pulang kerja"
+            },
+            {
+              "hz": "銀行",
+              "py": "yínháng",
+              "id": "bank"
+            },
+            {
+              "hz": "寄",
+              "py": "jì",
+              "id": "mengirim"
+            },
+            {
+              "hz": "郵局",
+              "py": "yóujú",
+              "id": "kantor pos"
+            },
+            {
+              "hz": "郵票",
+              "py": "yóupiào",
+              "id": "perangko"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Kerja kantoran",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳在哪家公司上班？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我在銀行上班，辦公室很大。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳幾點下班？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "六點下班。我今天要去郵局寄信，也要買郵票。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Minta bantuan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你可以用這個辦法幫我嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "可以，我幫你，你會有進步的。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b9",
+          "tab_label": "B9 · Sosial & Lain-lain",
+          "title": "Modul B9 — Sosial & lain-lain",
+          "zh_title": "社交與其他",
+          "grammar": "就1 · 為什麼",
+          "vocab": [
+            {
+              "hz": "歡迎",
+              "py": "huānyíng",
+              "id": "selamat datang"
+            },
+            {
+              "hz": "聊天",
+              "py": "liáotiān",
+              "id": "mengobrol"
+            },
+            {
+              "hz": "不好意思",
+              "py": "bùhǎoyìsi",
+              "id": "maaf/sungkan"
+            },
+            {
+              "hz": "不客氣",
+              "py": "búkèqì",
+              "id": "sama-sama"
+            },
+            {
+              "hz": "加油",
+              "py": "jiāyóu",
+              "id": "semangat"
+            },
+            {
+              "hz": "祝",
+              "py": "zhù",
+              "id": "mendoakan"
+            },
+            {
+              "hz": "草",
+              "py": "cǎo",
+              "id": "rumput"
+            },
+            {
+              "hz": "飛",
+              "py": "fēi",
+              "id": "terbang"
+            },
+            {
+              "hz": "下雪",
+              "py": "xiàxuě",
+              "id": "turun salju"
+            },
+            {
+              "hz": "過年",
+              "py": "guònián",
+              "id": "merayakan tahun baru"
+            },
+            {
+              "hz": "新年",
+              "py": "xīnnián",
+              "id": "tahun baru"
+            },
+            {
+              "hz": "行2",
+              "py": "háng",
+              "id": "baris/profesi"
+            },
+            {
+              "hz": "奇怪",
+              "py": "qíguài",
+              "id": "aneh"
+            },
+            {
+              "hz": "匙",
+              "py": "chí",
+              "id": "sendok"
+            },
+            {
+              "hz": "盤",
+              "py": "pán",
+              "id": "piring"
+            },
+            {
+              "hz": "炸1",
+              "py": "zhá",
+              "id": "menggoreng"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Menyambut tamu",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "歡迎你來我家！我們可以聊天。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不好意思，我來晚了。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "不客氣，快進來坐。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "外面在下雪，很冷。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Ucapan tahun baru",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "新年快樂！過年的時候，我祝你身體健康！"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "謝謝，我也祝你！你要加油！"
+                }
+              ]
+            },
+            {
+              "title": "B3 — Makan malam",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "這是什麼？很奇怪。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "這是炸的東西，放在盤子上，要用匙吃。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "美美",
+                  "text": "草地上有鳥在飛，很漂亮。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vol-3",
+      "label": "Volume 3 · 第三級",
+      "modules": [
+        {
+          "id": "c1",
+          "tab_label": "C1 · Lokasi & Arah",
+          "title": "Modul C1 — Lokasi, arah & tempat (mahir)",
+          "zh_title": "交通運輸與方位（高階）",
+          "grammar": "就2 · 以上/下/內/外 · 數+左右",
+          "vocab": [
+            {
+              "hz": "捷運",
+              "py": "jiéyùn",
+              "id": "MRT"
+            },
+            {
+              "hz": "地鐵",
+              "py": "dìtiě",
+              "id": "kereta bawah tanah"
+            },
+            {
+              "hz": "停車場",
+              "py": "tíngchēchǎng",
+              "id": "tempat parkir"
+            },
+            {
+              "hz": "月台",
+              "py": "yuètái",
+              "id": "peron"
+            },
+            {
+              "hz": "出口",
+              "py": "chūkǒu",
+              "id": "pintu keluar"
+            },
+            {
+              "hz": "入口",
+              "py": "rùkǒu",
+              "id": "pintu masuk"
+            },
+            {
+              "hz": "公路",
+              "py": "gōnglù",
+              "id": "jalan raya besar"
+            },
+            {
+              "hz": "機車",
+              "py": "jīchē",
+              "id": "motor"
+            },
+            {
+              "hz": "搭",
+              "py": "dā",
+              "id": "naik (transportasi)"
+            },
+            {
+              "hz": "座位",
+              "py": "zuòwèi",
+              "id": "kursi/tempat duduk"
+            }
+          ],
+          "supplementary": "城市, 船, 出國, 度, 交通, 摩托車, 客滿, 簽證, 颱風, 溫泉, 行李, 自行車, 班次, 標準, 春季, 利用, 晴天, 時差",
+          "dialogs": [
+            {
+              "title": "B1 — Cari jalan ke stasiun",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "請問，捷運入口在哪裡？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "走過地鐵站的出口，往前走五分鐘左右就到了。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "那停車場在哪裡？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "停車場在公路旁邊，機車跟汽車都可以停。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Naik MRT",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳要搭什麼車去？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我要搭捷運，這個時間人不多，找座位很容易。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "月台在哪一邊？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "月台就在前面，走幾步就到了。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c2",
+          "tab_label": "C2 · Aktivitas & Jadwal",
+          "title": "Modul C2 — Aktivitas rutin, sekolah & jadwal (mahir)",
+          "zh_title": "校園生活與學期作息（高階）",
+          "grammar": "先...再... · 一邊...一邊... · 快要...了",
+          "vocab": [
+            {
+              "hz": "遲到",
+              "py": "chídào",
+              "id": "terlambat"
+            },
+            {
+              "hz": "讀書",
+              "py": "dúshū",
+              "id": "belajar"
+            },
+            {
+              "hz": "寒假",
+              "py": "hánjià",
+              "id": "libur musim dingin"
+            },
+            {
+              "hz": "暑假",
+              "py": "shǔjià",
+              "id": "libur musim panas"
+            },
+            {
+              "hz": "學期",
+              "py": "xuéqí",
+              "id": "semester"
+            },
+            {
+              "hz": "出門",
+              "py": "chūmén",
+              "id": "keluar rumah"
+            },
+            {
+              "hz": "校園",
+              "py": "xiàoyuán",
+              "id": "kampus"
+            },
+            {
+              "hz": "畢業",
+              "py": "bìyè",
+              "id": "lulus"
+            },
+            {
+              "hz": "日記",
+              "py": "rìjì",
+              "id": "buku harian"
+            },
+            {
+              "hz": "漢字",
+              "py": "hànzì",
+              "id": "aksara Han"
+            }
+          ],
+          "supplementary": "詞, 黑板, 華語, 教育, 歷史, 台語, 文法, 學生證, 研究, 程度, 成功, 春假, 答案, 法律, 方面, 高級, 教授, 拼音, 書法, 討論, 題目, 現代, 正式, 知識, 作文, 廁所, 廚房, 肥皂, 環境, 垃圾, 涼快, 鄰居, 毛巾, 鬧鐘, 傘, 沙發, 衛生紙, 洗髮精, 信箱, 洗衣機, 牙膏, 鑰匙, 牙刷, 浴室, 雨衣, 餐桌, 房屋, 家具, 零用錢, 日子, 生活費, 市區, 時鐘, 書架, 書桌, 鎖, 臥室, 鄉下, 院子, 枕頭",
+          "dialogs": [
+            {
+              "title": "B1 — Hari sekolah biasa",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳今天遲到了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "沒有，我先寫日記，再去學校，還是準時到校園。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "暑假快要到了，妳有什麼計畫？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我想多讀書，也想學漢字。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Menuju kelulusan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "這學期妳畢業了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "還沒，我下學期才畢業。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "那妳寒假要做什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "我要一邊出門旅行，一邊練習中文。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c3",
+          "tab_label": "C3 · Makanan & Belanja",
+          "title": "Modul C3 — Makanan, belanja & harga (mahir)",
+          "zh_title": "飲食消費與購物（高階）",
+          "grammar": "Vs極了 · 除了...以外還... · V得/不起",
+          "vocab": [
+            {
+              "hz": "海鮮",
+              "py": "hǎixiān",
+              "id": "makanan laut"
+            },
+            {
+              "hz": "牛排",
+              "py": "niúpái",
+              "id": "steik"
+            },
+            {
+              "hz": "沙拉",
+              "py": "shālā",
+              "id": "salad"
+            },
+            {
+              "hz": "食物",
+              "py": "shíwù",
+              "id": "makanan (umum)"
+            },
+            {
+              "hz": "新鮮",
+              "py": "xīnxiān",
+              "id": "segar"
+            },
+            {
+              "hz": "鹽",
+              "py": "yán",
+              "id": "garam"
+            },
+            {
+              "hz": "打折",
+              "py": "dǎzhé",
+              "id": "diskon"
+            },
+            {
+              "hz": "逛街",
+              "py": "guàngjiē",
+              "id": "jalan-jalan belanja"
+            },
+            {
+              "hz": "排隊",
+              "py": "páiduì",
+              "id": "mengantre"
+            },
+            {
+              "hz": "刷卡",
+              "py": "shuākǎ",
+              "id": "bayar pakai kartu"
+            }
+          ],
+          "supplementary": "便當, 餅乾, 草莓, 豆腐, 豆漿, 番茄, 鳳梨, 醬, 橘子, 芒果, 木瓜, 泡麵, 葡萄, 巧克力, 速食, 糖果, 位子, 烏龍茶, 洋蔥, 飲料, 油, 做法, 米, 套餐, 香味, 汁, 店員, 訂位, 毛衣, 皮鞋, 生意, 手套, 襪子, 老闆娘, 熱鬧, 上衣, 睡衣, 拖鞋, 小費",
+          "dialogs": [
+            {
+              "title": "B1 — Makan di luar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這家餐廳的海鮮新鮮極了。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對啊，除了海鮮以外，牛排跟沙拉也很好吃。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "可是好貴，我怕買不起。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "沒關係，今天打折，我們可以省一點。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Belanja akhir pekan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳要不要去逛街？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好啊，可是週末排隊的人很多。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "沒關係，我們可以刷卡，也可以買一點鹽和食物回家。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c4",
+          "tab_label": "C4 · Keluarga Besar",
+          "title": "Modul C4 — Keluarga besar (lanjut)",
+          "zh_title": "大家庭進階",
+          "grammar": "讓1 · 叫1",
+          "vocab": [
+            {
+              "hz": "伯父",
+              "py": "bófù",
+              "id": "paman (kakak ayah)"
+            },
+            {
+              "hz": "伯母",
+              "py": "bómǔ",
+              "id": "bibi (istri kakak ayah)"
+            },
+            {
+              "hz": "姑姑",
+              "py": "gūgu",
+              "id": "bibi (adik ayah)"
+            },
+            {
+              "hz": "姑媽",
+              "py": "gūmā",
+              "id": "bibi (kakak ayah)"
+            },
+            {
+              "hz": "外公",
+              "py": "wàigōng",
+              "id": "kakek (dari ibu)"
+            },
+            {
+              "hz": "外婆",
+              "py": "wàipó",
+              "id": "nenek (dari ibu)"
+            },
+            {
+              "hz": "孫女",
+              "py": "sūnnǚ",
+              "id": "cucu perempuan"
+            },
+            {
+              "hz": "孫子",
+              "py": "sūnzi",
+              "id": "cucu laki-laki"
+            },
+            {
+              "hz": "同班",
+              "py": "tóngbān",
+              "id": "sekelas"
+            },
+            {
+              "hz": "子",
+              "py": "zǐ",
+              "id": "anak (morfem)"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Silsilah keluarga",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這是我外公、外婆，那是我伯父、伯母。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "他們讓你叫他們爺爺奶奶嗎？"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "不用，我叫他們外公外婆。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Sepupu & cucu",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "姑姑和姑媽是同一個人嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不是，姑姑是爸爸的妹妹，姑媽是爸爸的姊姊。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "我孫子和我孫女同班嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，他們是同班同學。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c5",
+          "tab_label": "C5 · Identitas",
+          "title": "Modul C5 — Identitas & latar belakang",
+          "zh_title": "身分與背景",
+          "grammar": "才1 · 才4",
+          "vocab": [
+            {
+              "hz": "大學生",
+              "py": "dàxuéshēng",
+              "id": "mahasiswa"
+            },
+            {
+              "hz": "華人",
+              "py": "huárén",
+              "id": "etnis Tionghoa"
+            },
+            {
+              "hz": "結婚",
+              "py": "jiéhūn",
+              "id": "menikah"
+            },
+            {
+              "hz": "年紀",
+              "py": "niánjì",
+              "id": "usia"
+            },
+            {
+              "hz": "出生",
+              "py": "chūshēng",
+              "id": "lahir"
+            },
+            {
+              "hz": "大陸",
+              "py": "dàlù",
+              "id": "daratan Tiongkok"
+            },
+            {
+              "hz": "國小",
+              "py": "guóxiǎo",
+              "id": "SD"
+            },
+            {
+              "hz": "母語",
+              "py": "mǔyǔ",
+              "id": "bahasa ibu"
+            },
+            {
+              "hz": "中學",
+              "py": "zhōngxué",
+              "id": "SMP/SMA"
+            },
+            {
+              "hz": "住址",
+              "py": "zhùzhǐ",
+              "id": "alamat tinggal"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Latar belakang",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳是大學生嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我是華人，在中學畢業以後才上大學。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳的母語是什麼？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "中文，我在國小的時候學的。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Usia & asal",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你在哪裡出生？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我在大陸出生，後來才搬到這裡。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你多大年紀了？你結婚了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "我才二十五歲，還沒結婚。你的住址是哪裡？"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c6",
+          "tab_label": "C6 · Kesehatan Mahir",
+          "title": "Modul C6 — Kesehatan (mahir)",
+          "zh_title": "健康高階",
+          "grammar": "V起來1 · 應該1",
+          "vocab": [
+            {
+              "hz": "頭痛",
+              "py": "tóutòng",
+              "id": "sakit kepala"
+            },
+            {
+              "hz": "發燒",
+              "py": "fāshāo",
+              "id": "demam"
+            },
+            {
+              "hz": "咳嗽",
+              "py": "késòu",
+              "id": "batuk"
+            },
+            {
+              "hz": "腿",
+              "py": "tuǐ",
+              "id": "kaki (tungkai)"
+            },
+            {
+              "hz": "眼",
+              "py": "yǎn",
+              "id": "mata"
+            },
+            {
+              "hz": "身高",
+              "py": "shēngāo",
+              "id": "tinggi badan"
+            },
+            {
+              "hz": "藥房",
+              "py": "yàofáng",
+              "id": "apotek"
+            },
+            {
+              "hz": "嚴重",
+              "py": "yánzhòng",
+              "id": "parah"
+            },
+            {
+              "hz": "精神",
+              "py": "jīngshén",
+              "id": "semangat/kondisi"
+            },
+            {
+              "hz": "正常",
+              "py": "zhèngcháng",
+              "id": "normal"
+            }
+          ],
+          "supplementary": "背1, 流汗, 鼻水, 汗, 咳, 臉色, 藥局",
+          "dialogs": [
+            {
+              "title": "B1 — Gejala sakit",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳看起來不太好，頭痛嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我發燒，也咳嗽，還流鼻水。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳應該去藥房買藥，也要去藥局看看。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，我覺得精神不太好。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Pemeriksaan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你的腿怎麼了？臉色也不太好。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "沒事，只是流汗，出了一點汗。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你的眼和身高都正常，不嚴重，休息一下就好，背也不痛吧？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，背不痛，咳也不嚴重。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c7",
+          "tab_label": "C7 · Hiburan Lanjut",
+          "title": "Modul C7 — Hiburan (lanjut)",
+          "zh_title": "休閒娛樂進階",
+          "grammar": "動詞重疊(ABAB) · VV看",
+          "vocab": [
+            {
+              "hz": "電影院",
+              "py": "diànyǐngyuàn",
+              "id": "bioskop"
+            },
+            {
+              "hz": "拍照",
+              "py": "pāizhào",
+              "id": "memotret"
+            },
+            {
+              "hz": "爬山",
+              "py": "páshān",
+              "id": "mendaki gunung"
+            },
+            {
+              "hz": "新聞",
+              "py": "xīnwén",
+              "id": "berita"
+            },
+            {
+              "hz": "遊戲",
+              "py": "yóuxì",
+              "id": "permainan"
+            },
+            {
+              "hz": "參觀",
+              "py": "cānguān",
+              "id": "berkunjung"
+            },
+            {
+              "hz": "散步",
+              "py": "sànbù",
+              "id": "jalan-jalan"
+            },
+            {
+              "hz": "雜誌",
+              "py": "zázhì",
+              "id": "majalah"
+            },
+            {
+              "hz": "有趣",
+              "py": "yǒuqù",
+              "id": "menarik"
+            },
+            {
+              "hz": "無聊",
+              "py": "wúliáo",
+              "id": "membosankan"
+            }
+          ],
+          "supplementary": "訂, 逛, 假1, 舞, 畫家",
+          "dialogs": [
+            {
+              "title": "B1 — Rencana akhir pekan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，假日妳要做什麼？我們去爬山，好嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好啊，可以拍照，也可以逛逛。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "我們也可以去電影院看電影，你想不想試試看？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "好，看電影很有趣，在家看新聞很無聊。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Kegiatan santai",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你喜歡玩遊戲嗎？我們去參觀畫家的畫展，也可以散散步。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，我也要訂票，順便看看雜誌，跳跳舞也不錯。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c8",
+          "tab_label": "C8 · Kerja & Kantor Pos",
+          "title": "Modul C8 — Pekerjaan & kantor pos",
+          "zh_title": "工作與郵局",
+          "grammar": "必須 · 不用/不必",
+          "vocab": [
+            {
+              "hz": "報告",
+              "py": "bàogào",
+              "id": "laporan"
+            },
+            {
+              "hz": "打工",
+              "py": "dǎgōng",
+              "id": "kerja paruh waktu"
+            },
+            {
+              "hz": "放假",
+              "py": "fàngjià",
+              "id": "libur"
+            },
+            {
+              "hz": "工人",
+              "py": "gōngrén",
+              "id": "pekerja"
+            },
+            {
+              "hz": "加班",
+              "py": "jiābān",
+              "id": "lembur"
+            },
+            {
+              "hz": "教書",
+              "py": "jiāoshū",
+              "id": "mengajar"
+            },
+            {
+              "hz": "開會",
+              "py": "kāihuì",
+              "id": "rapat"
+            },
+            {
+              "hz": "商人",
+              "py": "shāngrén",
+              "id": "pedagang"
+            },
+            {
+              "hz": "封",
+              "py": "fēng",
+              "id": "(kt bantu surat)"
+            },
+            {
+              "hz": "回信",
+              "py": "huíxìn",
+              "id": "membalas surat"
+            },
+            {
+              "hz": "零錢",
+              "py": "língqián",
+              "id": "uang receh"
+            },
+            {
+              "hz": "提",
+              "py": "tí",
+              "id": "membawa/menyebut"
+            },
+            {
+              "hz": "郵件",
+              "py": "yóujiàn",
+              "id": "surat/paket"
+            },
+            {
+              "hz": "存",
+              "py": "cún",
+              "id": "menyimpan (uang)"
+            },
+            {
+              "hz": "居留證",
+              "py": "jūliúzhèng",
+              "id": "kartu izin tinggal"
+            },
+            {
+              "hz": "信封",
+              "py": "xìnfēng",
+              "id": "amplop"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Kerja & rapat",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳在打工嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，我一邊打工一邊教書，我必須寫報告。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳今天要加班嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不用，我們要開會，開完會就放假了。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Di bank & kantor pos",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "那個商人是工人嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "不是，他是商人，他要去銀行存錢，也要拿零錢。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你有沒有居留證？我要幫你寄一封信，信封裡有郵件。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，你可以幫我提東西嗎？也要幫我回信。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c9",
+          "tab_label": "C9 · Sosial Lanjut",
+          "title": "Modul C9 — Interaksi sosial (lanjut)",
+          "zh_title": "社交往來進階",
+          "grammar": "對 · 對...有興趣",
+          "vocab": [
+            {
+              "hz": "簡訊",
+              "py": "jiǎnxùn",
+              "id": "SMS"
+            },
+            {
+              "hz": "禮物",
+              "py": "lǐwù",
+              "id": "hadiah"
+            },
+            {
+              "hz": "請客",
+              "py": "qǐngkè",
+              "id": "mentraktir"
+            },
+            {
+              "hz": "合作",
+              "py": "hézuò",
+              "id": "kerja sama"
+            },
+            {
+              "hz": "禮貌",
+              "py": "lǐmào",
+              "id": "sopan santun"
+            },
+            {
+              "hz": "派對",
+              "py": "pàiduì",
+              "id": "pesta"
+            },
+            {
+              "hz": "約",
+              "py": "yuē",
+              "id": "janji temu"
+            },
+            {
+              "hz": "約會",
+              "py": "yuēhuì",
+              "id": "kencan"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Ajak ke pesta",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳對這個派對有興趣嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "有，我約了朋友一起去，也準備了禮物。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "妳跟他約會嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "不是約會，是普通的約，我們要合作辦一個活動。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Traktir teman",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "你今天請客嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，我發了簡訊約大家，也要對客人有禮貌。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c10",
+          "tab_label": "C10 · Rumah Tangga",
+          "title": "Modul C10 — Rumah tangga (lanjut)",
+          "zh_title": "居家進階",
+          "grammar": "PW+V (存現) · V好",
+          "vocab": [
+            {
+              "hz": "夢",
+              "py": "mèng",
+              "id": "mimpi"
+            },
+            {
+              "hz": "沐浴乳",
+              "py": "mùyùrǔ",
+              "id": "sabun mandi"
+            },
+            {
+              "hz": "雨傘",
+              "py": "yǔsǎn",
+              "id": "payung"
+            },
+            {
+              "hz": "房",
+              "py": "fáng",
+              "id": "kamar"
+            },
+            {
+              "hz": "廳",
+              "py": "tīng",
+              "id": "ruang tamu"
+            },
+            {
+              "hz": "蚊子",
+              "py": "wénzi",
+              "id": "nyamuk"
+            },
+            {
+              "hz": "臥房",
+              "py": "wòfáng",
+              "id": "kamar tidur"
+            },
+            {
+              "hz": "衣架",
+              "py": "yījià",
+              "id": "gantungan baju"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Di kamar",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，妳的臥房裡有蚊子嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "有一點，房間裡也放著雨傘和沐浴乳。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "衣架上掛好了嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "掛好了。昨天我做了一個夢，夢到客廳裡有蚊子。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Denah rumah",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這個房子是三房兩廳嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，房間都準備好了。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c11",
+          "tab_label": "C11 · Keamanan & Budaya",
+          "title": "Modul C11 — Keamanan & budaya",
+          "zh_title": "安全與文化",
+          "grammar": "要是...就... · ......的話",
+          "vocab": [
+            {
+              "hz": "安全",
+              "py": "ānquán",
+              "id": "aman"
+            },
+            {
+              "hz": "發生",
+              "py": "fāshēng",
+              "id": "terjadi"
+            },
+            {
+              "hz": "可怕",
+              "py": "kěpà",
+              "id": "menakutkan"
+            },
+            {
+              "hz": "危險",
+              "py": "wéixiǎn",
+              "id": "berbahaya"
+            },
+            {
+              "hz": "保護",
+              "py": "bǎohù",
+              "id": "melindungi"
+            },
+            {
+              "hz": "偷",
+              "py": "tōu",
+              "id": "mencuri"
+            },
+            {
+              "hz": "春節",
+              "py": "chūnjié",
+              "id": "Imlek"
+            },
+            {
+              "hz": "除夕",
+              "py": "chúxì",
+              "id": "malam tahun baru"
+            },
+            {
+              "hz": "節日",
+              "py": "jiérì",
+              "id": "hari raya"
+            },
+            {
+              "hz": "聖誕老人",
+              "py": "shèngdànlǎorén",
+              "id": "Sinterklas"
+            },
+            {
+              "hz": "中式",
+              "py": "zhōngshì",
+              "id": "gaya Tionghoa"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Bahaya & keamanan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，要是有危險，你就要保護自己，安全最重要。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對啊，昨天發生了一件可怕的事，有人偷東西。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "真的嗎？太可怕了。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Hari raya",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "除夕的話，我們一起過春節，好嗎？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "好，春節是中式的節日，聖誕老人是外國的。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這是我們的節日，很重要。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c12",
+          "tab_label": "C12 · Campuran",
+          "title": "Modul C12 — Campuran: belanja, makanan, pendidikan & lingkungan",
+          "zh_title": "綜合：購物、飲食、教育與環境",
+          "grammar": "越來越 · 而且",
+          "vocab": [
+            {
+              "hz": "刷",
+              "py": "shuā",
+              "id": "menyikat"
+            },
+            {
+              "hz": "鐘2",
+              "py": "zhōng",
+              "id": "jam (dinding)"
+            },
+            {
+              "hz": "主人",
+              "py": "zhǔrén",
+              "id": "pemilik"
+            },
+            {
+              "hz": "做生意",
+              "py": "zuòshēngyì",
+              "id": "berbisnis"
+            },
+            {
+              "hz": "餅",
+              "py": "bǐng",
+              "id": "kue kering"
+            },
+            {
+              "hz": "泡",
+              "py": "pào",
+              "id": "merendam"
+            },
+            {
+              "hz": "豆/豆子",
+              "py": "dòuzi",
+              "id": "kacang"
+            },
+            {
+              "hz": "乘",
+              "py": "chéng",
+              "id": "kali (matematika)"
+            },
+            {
+              "hz": "除",
+              "py": "chú",
+              "id": "bagi (matematika)"
+            },
+            {
+              "hz": "題",
+              "py": "tí",
+              "id": "soal"
+            },
+            {
+              "hz": "環保",
+              "py": "huánbǎo",
+              "id": "ramah lingkungan"
+            },
+            {
+              "hz": "社會",
+              "py": "shèhuì",
+              "id": "masyarakat"
+            },
+            {
+              "hz": "污染",
+              "py": "wūrǎn",
+              "id": "polusi"
+            },
+            {
+              "hz": "涼",
+              "py": "liáng",
+              "id": "sejuk"
+            },
+            {
+              "hz": "星星",
+              "py": "xīngxing",
+              "id": "bintang"
+            },
+            {
+              "hz": "陰天",
+              "py": "yīntiān",
+              "id": "mendung"
+            },
+            {
+              "hz": "耳機",
+              "py": "ěrjī",
+              "id": "headphone"
+            },
+            {
+              "hz": "自然",
+              "py": "zìrán",
+              "id": "alam"
+            }
+          ],
+          "supplementary": null,
+          "dialogs": [
+            {
+              "title": "B1 — Toko & cuaca",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "美美，這家店的主人做生意做得越來越好。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "美美",
+                  "text": "對，他賣餅和豆子，也賣泡麵。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "大同",
+                  "text": "現在天氣涼涼的，也有一點陰天，看不到星星。"
+                }
+              ]
+            },
+            {
+              "title": "B2 — Sekolah & lingkungan",
+              "lines": [
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "這一題要用乘還是除？"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "要用乘，而且要小心，這是數學題。"
+                },
+                {
+                  "side": "a",
+                  "speaker": "老王",
+                  "text": "現在社會很重視環保，大家都不喜歡污染。"
+                },
+                {
+                  "side": "b",
+                  "speaker": "大同",
+                  "text": "對，戴耳機聽自然的聲音也很好。媽媽在刷碗，鐘也壞了。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": "Sumber: analisis-ujian-tocfl.md & analisis-modul.md (proyek Modul TOCFL Band A) · Kerangka Bachman & Palmer (Language Testing in Practice, 1996) · Kosakata & grammar dari kosakata.xlsx dan grammar.xlsx, sheet 第1級/第2級/第3級 sesuai volume."
+}

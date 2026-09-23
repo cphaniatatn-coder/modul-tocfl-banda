@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modul Tema Prioritas TOCFL</title>
+<meta name="description" content="Tema paling sering diujikan di TOCFL Band A, ditemukan dari analisis penuh 5 set Mendengar + 5 set Membaca, diwujudkan jadi modul ajar Volume 1-3 (34 modul).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap" id="app">
+  <p style="padding:60px 0;text-align:center;color:var(--ink-faint);">Memuat modul…</p>
+</div>
+
+<script>
+(function(){
+  var DATA_URL = 'modules.json';
+
+  function el(tag, opts){
+    opts = opts || {};
+    var e = document.createElement(tag);
+    if (opts.cls) e.className = opts.cls;
+    if (opts.html !== undefined) e.innerHTML = opts.html;
+    if (opts.text !== undefined) e.textContent = opts.text;
+    if (opts.attrs) for (var k in opts.attrs) e.setAttribute(k, opts.attrs[k]);
+    return e;
+  }
+  function esc(s){
+    if (s == null) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function renderHero(data, root){
+    var header = el('header', {cls:'hero'});
+    header.appendChild(el('div', {cls:'eyebrow', text:'Analisis Ujian & Desain Modul — TOCFL Band A'}));
+    var h1 = el('h1', {text: data.hero.title});
+    header.appendChild(h1);
+    var lede = el('p', {cls:'lede', html: esc(data.hero.lede)});
+    header.appendChild(lede);
+    var metaRow = el('div', {cls:'meta-row'});
+    data.hero.meta.forEach(function(m){
+      var chip = el('div', {cls:'meta-chip'});
+      chip.appendChild(el('span', {cls:'n', text:m.n}));
+      chip.appendChild(el('span', {cls:'l', text:m.l}));
+      metaRow.appendChild(chip);
+    });
+    header.appendChild(metaRow);
+    root.appendChild(header);
+  }
+
+  function renderEvidence(data, root){
+    var section = el('section', {attrs:{id:'evidence'}});
+    section.appendChild(el('div', {cls:'eyebrow', text:'Bukti'}));
+    section.appendChild(el('h2', {text:'Seberapa sering tiap tema muncul'}));
+    section.appendChild(el('p', {cls:'section-intro', html: esc(data.evidence.intro)}));
+
+    var chart = el('div', {cls:'chart', attrs:{role:'img','aria-label':'Grafik batang jumlah set dari 5 yang memuat tiap tema'}});
+    data.evidence.chart.forEach(function(row){
+      var rowEl = el('div', {cls:'chart-row' + (row.top ? ' top' : '')});
+      var label = el('div', {cls:'chart-label'});
+      label.appendChild(document.createTextNode(row.label));
+      if (row.sub) label.appendChild(el('span', {cls:'sub', text: row.sub}));
+      rowEl.appendChild(label);
+      var track = el('div', {cls:'chart-track'});
+      track.appendChild(el('div', {cls:'chart-fill', attrs:{style:'width:' + row.width}}));
+      rowEl.appendChild(track);
+      rowEl.appendChild(el('div', {cls:'chart-value', text: row.value}));
+      chart.appendChild(rowEl);
+    });
+    section.appendChild(chart);
+    section.appendChild(el('p', {cls:'chart-caption', text: data.evidence.caption}));
+
+    var top3 = el('div', {cls:'top3'});
+    data.evidence.top3.forEach(function(card){
+      var c = el('div', {cls:'card'});
+      c.appendChild(el('div', {cls:'rank', text: card.rank}));
+      c.appendChild(el('h3', {text: card.title}));
+      c.appendChild(el('div', {cls:'zh-title zh', text: card.zh_title}));
+      c.appendChild(el('p', {text: card.desc}));
+      top3.appendChild(c);
+    });
+    section.appendChild(top3);
+    root.appendChild(section);
+  }
+
+  function renderDialog(block){
+    var wrap = el('div', {cls:'dialog-block'});
+    wrap.appendChild(el('div', {cls:'dialog-title', text: block.title}));
+    block.lines.forEach(function(line){
+      var row = el('div', {cls:'bubble-row ' + line.side});
+      var bubble = el('div', {cls:'bubble zh-sans'});
+      if (line.speaker) bubble.appendChild(el('span', {cls:'speaker', text: line.speaker}));
+      bubble.appendChild(document.createTextNode(line.text));
+      row.appendChild(bubble);
+      wrap.appendChild(row);
+    });
+    return wrap;
+  }
+
+  function renderModulePanel(m){
+    var panel = el('div', {cls:'panel', attrs:{id:'panel-' + m.id, role:'tabpanel', 'aria-labelledby':'tab-' + m.id}});
+    var head = el('div', {cls:'module-head'});
+    var left = el('div');
+    left.appendChild(el('h3', {text: m.title}));
+    if (m.zh_title) left.appendChild(el('div', {cls:'zh-h zh', text: m.zh_title}));
+    head.appendChild(left);
+    if (m.grammar) head.appendChild(el('div', {cls:'grammar-tag', text: 'Grammar: ' + m.grammar}));
+    panel.appendChild(head);
+
+    panel.appendChild(stageLabel('Tahap A — Kosakata'));
+    var grid = el('div', {cls:'vocab-grid'});
+    m.vocab.forEach(function(v){
+      var card = el('div', {cls:'vcard'});
+      card.appendChild(el('div', {cls:'hz zh', text: v.hz}));
+      card.appendChild(el('div', {cls:'py', text: v.py}));
+      card.appendChild(el('div', {cls:'id', text: v.id}));
+      grid.appendChild(card);
+    });
+    panel.appendChild(grid);
+
+    if (m.supplementary){
+      var supp = el('div', {cls:'supp-list'});
+      supp.appendChild(el('b', {text:'Kosakata tambahan (補充):'}));
+      supp.appendChild(document.createTextNode(' ' + m.supplementary));
+      panel.appendChild(supp);
+    }
+
+    if (m.dialogs && m.dialogs.length){
+      panel.appendChild(stageLabel('Tahap B — Dialog'));
+      m.dialogs.forEach(function(d){ panel.appendChild(renderDialog(d)); });
+    }
+    return panel;
+  }
+
+  function stageLabel(txt){
+    var s = el('div', {cls:'stage-label'});
+    s.appendChild(el('span', {cls:'dot'}));
+    s.appendChild(el('span', {text: txt}));
+    return s;
+  }
+
+  function renderTabs(items, groupLabel, activeIndex){
+    var tabs = el('div', {cls:'tabs', attrs:{role:'tablist','aria-label':groupLabel}});
+    items.forEach(function(it, i){
+      var btn = el('button', {
+        cls: 'tab-btn',
+        text: it.label,
+        attrs: {
+          role: 'tab',
+          'aria-selected': i === activeIndex ? 'true' : 'false',
+          'aria-controls': it.controls,
+          id: it.tabId,
+        }
+      });
+      tabs.appendChild(btn);
+    });
+    return tabs;
+  }
+
+  function renderModules(data, root){
+    var section = el('section', {attrs:{id:'module'}});
+    section.appendChild(el('div', {cls:'eyebrow', text:'Modul Ajar'}));
+    section.appendChild(el('h2', {text:'Volume 1–3 — 34 modul'}));
+    section.appendChild(el('p', {cls:'section-intro', attrs:{style:'margin-bottom:16px;'}, html: esc(data.module_section.intro)}));
+
+    var volTabItems = data.volumes.map(function(v, i){
+      return {label: v.label, controls: v.id, tabId: 'tab-' + v.id};
+    });
+    section.appendChild(renderTabs(volTabItems, 'Pilih volume', 0));
+
+    data.volumes.forEach(function(v, vi){
+      var volPanel = el('div', {cls:'panel', attrs:{id: v.id, role:'tabpanel', 'aria-labelledby':'tab-' + v.id}});
+      if (vi === 0) volPanel.setAttribute('data-active', 'true');
+
+      var modTabItems = v.modules.map(function(m){
+        return {label: m.tab_label, controls: 'panel-' + m.id, tabId: 'tab-' + m.id};
+      });
+      volPanel.appendChild(renderTabs(modTabItems, 'Pilih modul ' + v.label, 0));
+
+      v.modules.forEach(function(m, mi){
+        var p = renderModulePanel(m);
+        if (mi === 0) p.setAttribute('data-active', 'true');
+        volPanel.appendChild(p);
+      });
+      section.appendChild(volPanel);
+    });
+
+    root.appendChild(section);
+  }
+
+  function renderFooter(data, root){
+    var footer = el('footer', {text: data.footer});
+    root.appendChild(footer);
+  }
+
+  function wireTabs(root){
+    root.querySelectorAll('.tabs').forEach(function(group){
+      var btns = group.querySelectorAll('.tab-btn');
+      btns.forEach(function(btn){
+        btn.addEventListener('click', function(){
+          btns.forEach(function(b){
+            b.setAttribute('aria-selected', 'false');
+            var p = document.getElementById(b.getAttribute('aria-controls'));
+            if (p) p.removeAttribute('data-active');
+          });
+          btn.setAttribute('aria-selected', 'true');
+          var active = document.getElementById(btn.getAttribute('aria-controls'));
+          if (active) active.setAttribute('data-active', 'true');
+        });
+      });
+    });
+  }
+
+  function render(data){
+    var root = document.getElementById('app');
+    root.innerHTML = '';
+    renderHero(data, root);
+    renderEvidence(data, root);
+    renderModules(data, root);
+    renderFooter(data, root);
+    wireTabs(root);
+  }
+
+  fetch(DATA_URL)
+    .then(function(r){
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(function(err){
+      document.getElementById('app').innerHTML =
+        '<div style="padding:60px 20px;max-width:60ch;">' +
+        '<h2 style="font-family:Fraunces,serif;">Gagal memuat modules.json</h2>' +
+        '<p style="color:var(--ink-soft);line-height:1.6;">' + err.message + '</p>' +
+        '<p style="color:var(--ink-soft);line-height:1.6;">Kalau file ini dibuka langsung dari file explorer (file://), browser memblokir fetch() ke file lokal karena kebijakan CORS. Jalankan server lokal sederhana dari folder ini, lalu buka melalui http://:</p>' +
+        '<pre style="background:var(--paper-raised);border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;">python -m http.server 8000</pre>' +
+        '<p style="color:var(--ink-soft);">lalu buka <code>http://localhost:8000</code> di browser.</p>' +
+        '</div>';
+    });
+})();
+</script>
+
+</body>
+</html>
