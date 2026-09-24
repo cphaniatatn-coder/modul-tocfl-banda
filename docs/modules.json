@@ -2507,6 +2507,104 @@
               "Saya paham dialog pendek soal transportasi & lokasi"
             ],
             "prompt": "Bagian mana yang masih terasa sulit? Apa yang perlu dilatih lagi sebelum lanjut ke modul berikutnya?"
+          },
+          "freePool": {
+            "words": [
+              "禮拜",
+              "秋天/秋",
+              "一會/一會兒",
+              "一塊/一塊兒",
+              "週日",
+              "週一",
+              "雙",
+              "本來",
+              "比較/較",
+              "不過",
+              "當1",
+              "當然",
+              "道1",
+              "地2",
+              "地1",
+              "更1",
+              "好像",
+              "後來",
+              "還2",
+              "或是",
+              "啦",
+              "哪2"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Jadwal berangkat",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這個禮拜我們一塊兒去車站，好嗎？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好啊，週一還是週日比較方便？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "週日吧，秋天的天氣比較涼快。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好，一會兒我們就出發。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Menunggu di stasiun",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "老王",
+                    "text": "本來我想搭飛機，不過機場太遠了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "當然，坐火車比較方便，這也是一道方法。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "老王",
+                    "text": "好像下雨了，我們得找個地方等。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Jalan kaki atau naik kendaraan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "你走得真慢，慢慢地走沒關係。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "這個地方我更喜歡，走路或是騎腳踏車都可以。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "太好哪！那我們用走的。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "我把腳踏車還給店家了，後來又借了一雙鞋子走路用，我當時想快點到，後來想想，走路也不錯啦！"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -2693,6 +2791,94 @@
               "Saya paham dialog pendek soal rutinitas sekolah"
             ],
             "prompt": "Rutinitas mana yang paling mirip dengan rutinitasmu sendiri? Coba ceritakan pakai grammar di atas."
+          },
+          "freePool": {
+            "words": [
+              "部",
+              "春天/春",
+              "冬天/冬",
+              "間1",
+              "句",
+              "全",
+              "全部",
+              "所有",
+              "台/臺",
+              "小時候",
+              "夏天/夏",
+              "一半",
+              "已經",
+              "一下子/一下",
+              "一直",
+              "支",
+              "隻",
+              "種1",
+              "最後",
+              "最近",
+              "白天",
+              "從前"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Rajin sejak dulu",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我已經上課上了一整天，一直到白天才下課。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你從前也是這樣用功嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "對，小時候我就很用功，最後成績都不錯，最近也是。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Musim & PR",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "全部的作業你都寫完了嗎？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "寫了一半，所有的功課春天、夏天、冬天都一樣多。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "全都不簡單。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Barang di kamar belajar",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這個房間有一部電腦，一間書房。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "老師說的這句話我聽懂了，用一台電腦查資料。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我買了一支筆和一隻小狗玩偶，等一下就去上課，這種學生真用功。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -2869,6 +3055,99 @@
               "Saya paham dialog pendek soal makanan & belanja"
             ],
             "prompt": "Coba sebutkan makanan favoritmu pakai 太...了 (misalnya: 這個太好吃了！)"
+          },
+          "freePool": {
+            "words": [
+              "那麼",
+              "平常",
+              "如果",
+              "雖然/雖",
+              "特別",
+              "呀",
+              "怎麼辦",
+              "這麼",
+              "要是",
+              "把",
+              "幫忙",
+              "幫助",
+              "北",
+              "被",
+              "變",
+              "別人",
+              "部分/部份",
+              "參加",
+              "差不多",
+              "次",
+              "戴",
+              "但是/但"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Rencana ke toko",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "平常你都去超市買菜嗎？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "對，如果沒時間，那麼就去便利商店。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "特別想吃甜點呀！要是沒有怎麼辦？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "雖然貴一點，我們還是可以去百貨公司買。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Minta bantuan bawa barang",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這麼多點心，要是吃不完怎麼辦？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你把剩下的帶回家吧，我可以幫忙。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "謝謝妳的幫助，這家店在北邊，常常被客人稱讚。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Cerita tentang toko",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "這家店的菜單變了，別人說味道差不多。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "一部分的甜點很好吃，但是要戴口罩才能參加試吃。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我來過好幾次了。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3049,6 +3328,89 @@
               "Saya paham dialog pendek soal olahraga"
             ],
             "prompt": "Olahraga apa yang kamu 會 dan pernah kamu 過? Coba buat 2 kalimat."
+          },
+          "freePool": {
+            "words": [
+              "大人",
+              "電",
+              "第一",
+              "發現",
+              "敢",
+              "剛剛/剛",
+              "乾淨",
+              "高興",
+              "各",
+              "海",
+              "黃",
+              "回到",
+              "火",
+              "簡單",
+              "講",
+              "記得",
+              "接",
+              "計畫/計劃",
+              "機會",
+              "經過",
+              "經驗",
+              "緊張"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Lomba selesai",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "大人跟小孩都可以參加比賽，我們班拿了第一名！工作人員用電腦記分。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你敢不敢比賽游泳？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "剛剛比完，我很高興，各隊都很努力，現在回到休息室了。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Kolam renang bersih",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我發現游泳池很乾淨。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "對，像海一樣藍，不是黃色的水，一點也不簡單，還好沒著火。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "教練講了很多方法。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Persiapan tanding",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你記得接球的方法嗎？這是我的計畫。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這次是個好機會，經過練習，我有經驗了，不緊張。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3234,6 +3596,89 @@
               "Saya paham dialog ajakan piknik/kegiatan santai"
             ],
             "prompt": "Coba ajak temanmu piknik pakai kalimat dengan 可以, lalu tanya balik pakai 呢。"
+          },
+          "freePool": {
+            "words": [
+              "決定",
+              "開始",
+              "可愛",
+              "哭",
+              "苦",
+              "拉",
+              "老人",
+              "離開",
+              "綠",
+              "賣",
+              "南",
+              "能力",
+              "努力",
+              "騎",
+              "清楚",
+              "其他/其它",
+              "讓",
+              "認識",
+              "認為",
+              "聲2",
+              "聲音/聲1",
+              "世界"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Sebelum piknik",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我們決定了，活動開始前先野餐。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "那隻小狗好可愛，牠好像要哭了。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "別讓牠吃苦的東西，那邊有位老人在拉小提琴。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Menuju taman",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我們什麼時候離開？去南邊那片綠地看看。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "那裡有人賣門票，需要一點能力跟努力才騎得到山上。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Suara musik",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我沒聽清楚，其他人怎麼說？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "讓我認識一下，這個聲音很好聽。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "他突然叫了一聲，全世界都安靜了，我認為很有趣。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3414,6 +3859,88 @@
               "Saya paham dialog perkenalan keluarga besar"
             ],
             "prompt": "Coba perkenalkan anggota keluarga besarmu pakai 們 dan 也。"
+          },
+          "freePool": {
+            "words": [
+              "事情",
+              "樹",
+              "算",
+              "所",
+              "替",
+              "聽到",
+              "聽說",
+              "圖",
+              "往",
+              "網路",
+              "文化",
+              "香",
+              "向",
+              "想法",
+              "相信",
+              "笑",
+              "小朋友",
+              "習慣",
+              "行1",
+              "辛苦",
+              "希望"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cerita tentang kakek nenek",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我聽說一件事情，爺爺替奶奶種了一棵樹。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這算是他們的習慣嗎？我剛聽到這消息。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "對，這是他們的一所房子旁邊種的。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Mencari alamat",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我在網路上看到一張圖，往這個方向走就是他們家。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "那是家庭文化，屋子裡很香，這是叔叔的想法。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Harapan untuk keluarga",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我相信小朋友笑起來最可愛，這是我們家的習慣。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這樣的生活方式行不行？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "雖然辛苦，但我希望大家健康。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3567,6 +4094,88 @@
               "Saya paham dialog pendek soal ke rumah sakit"
             ],
             "prompt": "Coba ceritakan kalau kamu 有一點 sakit apa, dan apa yang harus dilakukan supaya 能 sembuh."
+          },
+          "freePool": {
+            "words": [
+              "學習",
+              "需要/需",
+              "樣子",
+              "顏色",
+              "以為",
+              "有的",
+              "願意",
+              "長2",
+              "找到",
+              "重1",
+              "中間",
+              "重要",
+              "轉1",
+              "準備",
+              "注意",
+              "總是/總",
+              "搬",
+              "背包",
+              "北部",
+              "笨",
+              "便利商店"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Belajar jaga kesehatan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "醫生說我需要學習照顧身體的樣子。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我以為你臉的顏色不太好，有的病人也是這樣。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我願意多注意健康。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Ke rumah sakit besar",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "護士說要找到問題的重點，這很重要。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你的病情長了嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "醫生說在中間階段，轉去大醫院準備檢查。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Pesan dari teman",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "醫生說要多注意身體，我總是很累。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你別搬重的背包，去北部醫院看看吧，別太笨，去便利商店買點藥也好。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3737,6 +4346,83 @@
               "Saya paham dialog pendek soal kerja & kantor pos"
             ],
             "prompt": "Coba minta bantuan temanmu pakai 幫, dan jelaskan caranya pakai 用。"
+          },
+          "freePool": {
+            "words": [
+              "別的",
+              "比方說/比方",
+              "不見了",
+              "臭",
+              "聰明",
+              "袋",
+              "袋子",
+              "打算",
+              "燈",
+              "掉",
+              "地圖",
+              "付",
+              "掛",
+              "關",
+              "罐",
+              "罐子",
+              "號碼",
+              "河",
+              "盒",
+              "盒子",
+              "壞"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cari dompet",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我打算去銀行，別的事情比方說寄信，也要辦。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我的錢包不見了，裡面有點臭味，可能忘在袋子裡了。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你真聰明，會記得檢查。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Cari kantor pos",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我打算先付郵費，看看地圖找郵局在哪裡。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "燈掉了，你把它掛好，記得關燈再走。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Kirim paket",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我要寄一罐茶葉，這個罐子裝在盒子裡。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "郵局的電話號碼是多少？沿著河邊那條路走，別把盒子弄壞了。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -3958,6 +4644,83 @@
               "Saya paham dialog makan malam & tahun baru"
             ],
             "prompt": "Modul ini gabungan banyak situasi sosial — bagian mana yang paling kamu ingat? Coba ucapkan 祝 ke temanmu."
+          },
+          "freePool": {
+            "words": [
+              "見面",
+              "交",
+              "借",
+              "渴",
+              "空1",
+              "藍",
+              "零",
+              "麻煩",
+              "難過",
+              "男生",
+              "女生",
+              "瓶子",
+              "錢包",
+              "色",
+              "生氣",
+              "踢",
+              "脫",
+              "忘",
+              "喂",
+              "有錢",
+              "有用"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Ajak ketemuan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "喂，我們見面聊天吧！"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好，我口渴了，能借我一瓶水嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "給你，這是空的瓶子，我拿去交給店家換新的，天空是藍色的，一點都不冷，零下的天氣才會下雪。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Barang hilang",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "麻煩你了，我不會難過的。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "那個男生和女生在找東西，他們的瓶子跟錢包不見了，是什麼顏色的？"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Bercanda dengan teman",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "別生氣，是我忘了把鞋子脫掉。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "喂！你不要踢我！開玩笑的，有錢也要用得有用才行。"
+                  }
+                ]
+              }
+            ]
           }
         }
       ]
@@ -4150,6 +4913,67 @@
               "Saya paham dialog pendek naik MRT"
             ],
             "prompt": "Coba jelaskan berapa lama waktu dari rumahmu ke sekolah pakai 數+左右。"
+          },
+          "freePool": {
+            "words": [
+              "遍",
+              "剛才",
+              "顆",
+              "套",
+              "已",
+              "半夜",
+              "倍",
+              "層",
+              "從來",
+              "當時",
+              "朵",
+              "籃",
+              "籃子",
+              "夜",
+              "夜晚"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Mencari pintu keluar",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我剛才找了一遍出口，已經半夜了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我從來沒有這麼晚搭車，當時應該早點出門。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Di area stasiun",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這棟停車場有三層，我買了一套地圖跟一顆糖。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這裡人多了兩倍，路邊有一朵花，夜晚跟夜裡看捷運站很漂亮。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Bawa keranjang",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我提著一個籃子，籃子裡有水果，搭捷運去朋友家。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -4336,6 +5160,67 @@
               "Saya paham dialog jadwal sekolah & liburan"
             ],
             "prompt": "Ceritakan rutinitas pagimu pakai 先...再..., lalu sebutkan sesuatu yang 快要...了 dalam hidupmu."
+          },
+          "freePool": {
+            "words": [
+              "以上",
+              "以下",
+              "早點",
+              "必須/須",
+              "不必",
+              "不但",
+              "不同",
+              "大概",
+              "到處",
+              "而且/且",
+              "還好",
+              "或者/或",
+              "立刻",
+              "那樣",
+              "相當"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Sebelum ujian",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這學期以上的漢字我都會了，以下的還在學。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你必須早點出門，不必遲到，不但要讀書也要複習。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Persiapan liburan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "每個學期都不同，大概到處都在準備考試。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "而且校園裡到處是學生，還好我畢業前寫完日記了，或者我再檢查一次。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Rencana menulis",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我立刻寫日記，那樣寒假才輕鬆，這相當重要。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -4517,6 +5402,67 @@
               "Saya paham dialog soal makan & belanja"
             ],
             "prompt": "Coba sebutkan makanan yang 好吃極了 dan sesuatu yang kamu rasa 買不起。"
+          },
+          "freePool": {
+            "words": [
+              "這樣",
+              "只好",
+              "直接",
+              "只要",
+              "多麼",
+              "剛好",
+              "其實",
+              "其中",
+              "同時",
+              "同樣",
+              "完全",
+              "也許",
+              "一般",
+              "一切",
+              "尤其"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cari tempat duduk",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這樣的海鮮多麼新鮮，只要打折我們就直接去買。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "沒有位子，只好排隊。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Obrolan di restoran",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "剛好遇到打折，其實這家店的食物其中有牛排最好吃。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我們同時逛街也同樣要記得刷卡。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Semua orang suka",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我完全喜歡這裡，也許一般人都愛，一切都好，尤其是沙拉。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -4692,6 +5638,72 @@
               "Saya bisa bedakan 姑姑 vs 姑媽, 外公外婆 vs 爺爺奶奶"
             ],
             "prompt": "Coba gambar pohon keluargamu dan sebutkan tiap anggota pakai kosakata modul ini."
+          },
+          "freePool": {
+            "words": [
+              "正好",
+              "背2",
+              "查",
+              "傳統",
+              "丟",
+              "底下",
+              "父母",
+              "父親",
+              "服務",
+              "乾1",
+              "趕快",
+              "關心",
+              "好處",
+              "花2",
+              "壞處"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cerita keluarga tradisional",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "伯父正好在查一件傳統的事情。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "姑姑把舊東西背在背上，可惜丟了一件。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Orang tua",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "外公外婆住在樓底下，我父母跟父親常去服務他們。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "天氣很乾，我們該去看看。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Meluangkan waktu",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "趕快去關心一下孫子孫女吧，多陪伴有好處。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "花時間陪家人沒有壞處。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -4872,6 +5884,72 @@
               "Saya bisa cerita latar belakang diri (asal, bahasa ibu, status)"
             ],
             "prompt": "Coba perkenalkan dirimu: dari mana asalmu, apa bahasa ibumu, dan kapan kamu 才 mulai belajar bahasa Mandarin."
+          },
+          "freePool": {
+            "words": [
+              "換",
+              "回答/答",
+              "急",
+              "加上",
+              "季節/季",
+              "開心",
+              "空2",
+              "口袋",
+              "例子/例",
+              "另外/另",
+              "流行",
+              "亂",
+              "滿",
+              "母親",
+              "內"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cerita ganti alamat",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你可以回答我嗎？別急，加上你的出生季節說說看。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我換了住址。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Perkenalan santai",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我很開心認識妳，這是個例子：我口袋空空的，另外我是大學生。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好巧。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Obrolan tentang tren",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "現在流行的東西太亂了，教室內滿滿都是人。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我母親也這樣說。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5052,6 +6130,71 @@
               "Saya bisa mendeskripsikan gejala sakit lebih detail"
             ],
             "prompt": "Kalau temanmu 看起來不太好, saran apa yang akan kamu berikan pakai 應該？"
+          },
+          "freePool": {
+            "words": [
+              "弄1",
+              "陪",
+              "破",
+              "輕鬆",
+              "認真",
+              "上床",
+              "生活",
+              "溼/濕",
+              "適合",
+              "收",
+              "帥",
+              "死",
+              "太陽",
+              "同意"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Menjenguk teman sakit",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "別把藥弄破了，陪我認真看看醫生比較輕鬆。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Istirahat",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "早點上床休息對生活有幫助，天氣濕的時候不適合出門。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我收到你的訊息了。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Sudah membaik",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你今天曬了太陽，看起來還是很帥，沒事就好，別嚇死我。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我同意你該多休息。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5222,6 +6365,71 @@
               "Saya bisa bedakan kegiatan 有趣 vs 無聊"
             ],
             "prompt": "Ajak temanmu coba kegiatan baru pakai pola VV看 (misalnya: 我們去試試看...)。"
+          },
+          "freePool": {
+            "words": [
+              "哇",
+              "忘記",
+              "消息",
+              "兄弟",
+              "選",
+              "樣",
+              "影響",
+              "髒",
+              "長大",
+              "照顧",
+              "中心",
+              "裝",
+              "資料",
+              "最好"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Ketinggalan berita",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "哇！我忘記看新聞的消息了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我跟兄弟去選了一本雜誌。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Main game",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這樣的遊戲會影響學習，別玩得太髒。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "長大以後我想好好照顧自己。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Rencana ke pusat kegiatan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我們去活動中心看看，先裝好資料，最好先參觀一下。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好主意。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5432,6 +6640,71 @@
               "Saya paham dialog soal kerja sambilan & kantor pos/bank"
             ],
             "prompt": "Sebutkan sesuatu yang kamu 必須 lakukan minggu ini, dan sesuatu yang 不用 kamu lakukan."
+          },
+          "freePool": {
+            "words": [
+              "包括",
+              "不停",
+              "不得了",
+              "不管",
+              "差1",
+              "吵",
+              "傳",
+              "帶來",
+              "當中",
+              "擔心",
+              "等/等等",
+              "得到",
+              "等到",
+              "底"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Sibuk kerja",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這份工作包括很多事，忙得不得了，不停地做。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "不管多忙，別跟同事有差，好好合作。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Berita dari kantor",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "辦公室有點吵，同事傳話說老闆要帶來新工作。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這當中我有點擔心。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Menunggu laporan selesai",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你等一下，等等我，等到報告寫完就得到休息時間了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "到底什麼時候放假？"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5592,6 +6865,71 @@
               "Saya paham dialog undangan pesta & traktir"
             ],
             "prompt": "Sebutkan sesuatu yang kamu 對...有興趣, pakai kalimat lengkap."
+          },
+          "freePool": {
+            "words": [
+              "地點",
+              "低頭",
+              "東方",
+              "煩",
+              "方",
+              "方向",
+              "放心",
+              "改",
+              "感覺",
+              "光",
+              "櫃子/櫃",
+              "害怕",
+              "合適",
+              "減"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Tempat pesta",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "派對的地點在哪？別低頭滑手機，很煩人。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "東方那邊有個好地方。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Ubah rencana",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "放心，方向我知道，我改了時間，感覺很好。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "光是想到派對我就開心。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Siapkan hadiah",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "禮物放在櫃子裡，別害怕，這個很合適，價錢還打了減價。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "太好了。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5752,6 +7090,71 @@
               "Saya paham dialog denah rumah & kondisi kamar"
             ],
             "prompt": "Deskripsikan kamarmu: apa yang 放著 di sana, dan apa yang sudah kamu V好."
+          },
+          "freePool": {
+            "words": [
+              "建議",
+              "叫做",
+              "結果",
+              "結束",
+              "接著/接着",
+              "經常",
+              "金色",
+              "開玩笑",
+              "看法",
+              "可惜",
+              "困難",
+              "老太太",
+              "類",
+              "連"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Bersih-bersih rumah",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我建議你先整理房間，這叫做斷捨離，結果整理完就結束了，接著再打掃客廳。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好主意。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Dekorasi rumah",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我經常看到金色的窗簾，別開玩笑，這是我的看法。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "可惜舊房子拆了。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Tetangga baik hati",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "打掃有點困難，隔壁老太太這類的鄰居也很熱心，連蚊子都幫忙趕走。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "真有趣。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -5927,6 +7330,71 @@
               "Saya bisa bedakan hari raya khas Tionghoa vs asing"
             ],
             "prompt": "Coba buat kalimat pengandaian pakai 要是...就... tentang keamanan diri."
+          },
+          "freePool": {
+            "words": [
+              "了解/瞭解",
+              "例如",
+              "留下",
+              "毛",
+              "美麗",
+              "沒想到",
+              "目的",
+              "淺",
+              "情形",
+              "深",
+              "身邊",
+              "熟",
+              "速度",
+              "談"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Tradisi tahun baru",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我了解這個情形，例如過年時要留下紅包。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "貓的毛好美麗。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Pentingnya keamanan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "沒想到安全的目的這麼重要，不管情形是淺是深都要小心。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "對。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Rencana keamanan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "危險的時候身邊的人要熟悉狀況，速度要快，我們來談談安全計畫。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好主意。"
+                  }
+                ]
+              }
+            ]
           }
         },
         {
@@ -6142,6 +7610,71 @@
               "Saya paham dialog campuran (warung, cuaca, sekolah, lingkungan)"
             ],
             "prompt": "Ini modul terakhir Volume 3! Coba buat 1 kalimat pakai 越來越 tentang kemampuan bahasa Mandarinmu sendiri."
+          },
+          "freePool": {
+            "words": [
+              "箱子",
+              "心情",
+              "選擇",
+              "許多",
+              "要求",
+              "意見",
+              "圓",
+              "原來",
+              "原因",
+              "月亮",
+              "整",
+              "抓",
+              "自由",
+              "做到"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Bongkar kotak barang",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這個箱子裡有許多東西，看你的心情選擇。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "老闆的要求很多。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Melihat bulan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你有什麼意見？原來今晚的月亮是圓的。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "這就是原因。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Malam bebas",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "整個晚上我都自由地抓魚，希望能做到環保。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "真厲害。"
+                  }
+                ]
+              }
+            ]
           }
         }
       ]

@@ -158,9 +158,41 @@ Contoh cara mengisi (hapus/ganti saat bab pertama dibuat):
     Metodologi cross-check: dibandingkan ke `總表` (sheet resmi gabungan
     Level 1-3) via ekstraksi langsung XML xlsx (skrip ad-hoc, belum
     dipermanenkan — sama seperti audit cakupan TBCL sebelumnya).
-  - **V2 (194 kata) & V3 (173 kata) BELUM dikerjakan** — direncanakan
-    giliran kerja berikutnya, sesuai keputusan Carli untuk bertahap per
-    volume.
+  - **✅ 2026-09-24 — V2 (194 kata, 9 modul B1–B9) & V3 (173 kata, 12 modul
+    C1–C12) SELESAI dianyam, giliran kerja berikutnya setelah V1.** Total
+    367 kata, rata-rata ~21/modul (V2) dan ~14-15/modul (V3), masing-masing
+    3 dialog pendek per modul. Field `freePool` sama seperti V1, tapi
+    dirender TANPA nomor tahap huruf (V2/V3 sudah pakai skema 6-tahap
+    bernomor) — label "Kata Alat (Free Pool) dalam Konteks" ditempatkan
+    setelah Tahap 6 反思與進度.
+    - **Metodologi distribusi kata**: TIDAK dikurasi kata-per-kata secara
+      manual seperti V1 (skalanya 2-3× lebih besar) — kata dipecah jadi
+      chunk berurutan sesuai urutan asli sheet Free Pool (chunk cenderung
+      sudah mengelompok wajar: kata waktu/kuantitas vs kata sambung vs
+      kata isi umum), lalu tiap chunk ditempel ke 1 modul dengan penyesuaian
+      ringan kalau ada kecocokan tema jelas (mis. chunk kata waktu → B2
+      Aktivitas&Jadwal). Ini SAH sesuai prinsip-thesis.md sendiri: kata
+      alat "dikecualikan dari harus muncul di adegan tertentu".
+    - **Cross-check level TBCL ke `總表` (sumber resmi) SEBELUM menulis
+      dialog** (pelajaran dari temuan 雙 di V1): 194 kata V2 100% cocok
+      Level 2, 172/173 kata V3 cocok Level 3 (1 kata, **籃**, tidak
+      ditemukan sebagai entri resmi tersendiri — TAPI ini bukan temuan
+      baru, sudah didokumentasikan di audit lama ledger sebagai kata extra
+      non-resmi yang aman dipakai, sama kelasnya dengan 匙/餅/華人).
+      Tidak ada kata yang bentrok level (tidak ada kasus se-serius 雙).
+    - Dicek juga tidak ada bentrok dengan vocab/補充 modul manapun di
+      Volume 2/3 (0 konflik).
+    - Divalidasi otomatis: semua 367 kata dicek benar-benar muncul di teks
+      dialog barunya (2 gap ditemukan & diperbaiki saat verifikasi
+      pertama — b4 kelewat kata 火, c10 kelewat kata 叫做 — sudah
+      ditambal), JSON tetap valid, syntax JS index.html tetap valid.
+    - **Total keseluruhan proyek: 464 kata Free Pool yang tadinya "invisible"
+      ke pelajar mandiri, SEKARANG semua sudah dianyam ke dialog modul
+      (95 V1 + 194 V2 + 173 V3 = 462, sisa 2 — 雙 dikeluarkan V1 karena
+      salah level, 比 dikeluarkan V1 karena berisiko tumpang-tindih larangan
+      比較 di M14/M15 — keduanya sengaja tidak dipaksakan, ditandai di atas).**
+    - **Belum dicek visual di browser sungguhan** (sama seperti sesi
+      sebelumnya, tidak ada tool browser tersedia) — cuma validasi otomatis.
 - **2026-09-24 — Implementasi #6 SELESAI: 4 tahap TBLL yang hilang
   ditambahkan ke semua 21 modul Volume 2 & 3 (B1–B9, C1–C12).** Tiap modul
   sekarang punya field baru di `web/docs/modules.json`: `intro` (情境導入 —

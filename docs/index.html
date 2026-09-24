@@ -228,6 +228,11 @@
 
       panel.appendChild(stageLabel('Tahap 6 — 反思與進度'));
       panel.appendChild(renderReflection(m.reflection));
+
+      if (m.freePool && m.freePool.dialogs && m.freePool.dialogs.length){
+        panel.appendChild(stageLabel('Kata Alat (Free Pool) dalam Konteks'));
+        panel.appendChild(renderFreePool(m.freePool));
+      }
     } else {
       panel.appendChild(stageLabel('Tahap A — Kosakata'));
       appendVocab(panel, m);
