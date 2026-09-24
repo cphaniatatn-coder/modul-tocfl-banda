@@ -1891,7 +1891,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu baru tiba di kota asing dan perlu bertanya arah ke beberapa tempat (stasiun, bandara, hotel) serta memperkirakan jaraknya.",
+            "goals": [
+              "Bertanya arah dengan 怎麼走",
+              "Menjelaskan jarak dengan 從...到... dan A離B",
+              "Memahami percakapan pendek soal transportasi & lokasi"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "我住在市中心，離①不遠，走路只要五分鐘。今天我要去②，我打算坐③去，因為比較快。到了④，我會先問⑤：「請問，出口怎麼走？」",
+              "options": [
+                "車站",
+                "機場",
+                "計程車",
+                "飯店",
+                "司機",
+                "老師"
+              ],
+              "answers": [
+                "車站",
+                "機場",
+                "計程車",
+                "飯店",
+                "司機"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "請問，去車站怎麼走？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "從這裡到車站不遠，你可以坐計程車或腳踏車去。"
+                }
+              ],
+              "question": "車站離這裡怎麼樣？",
+              "options": [
+                "很遠，要坐飛機",
+                "不遠，可以坐計程車或腳踏車",
+                "很遠，要坐船",
+                "不知道，要問司機"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "[地點]+怎麼走？",
+              "explanation": "Menanyakan cara menuju suatu tempat",
+              "example": "車站怎麼走？"
+            },
+            {
+              "pattern": "從A到B...",
+              "explanation": "Dari A ke B...",
+              "example": "從這裡到車站不遠。"
+            },
+            {
+              "pattern": "A離B+遠/近",
+              "explanation": "A jaraknya (jauh/dekat) dari B",
+              "example": "機場離市區有點遠。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa bertanya arah pakai 怎麼走",
+              "Saya bisa menjelaskan jarak pakai 從...到...",
+              "Saya bisa pakai A離B untuk menyebut jarak",
+              "Saya paham dialog pendek soal transportasi & lokasi"
+            ],
+            "prompt": "Bagian mana yang masih terasa sulit? Apa yang perlu dilatih lagi sebelum lanjut ke modul berikutnya?"
+          }
         },
         {
           "id": "b2",
@@ -2003,7 +2077,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu ingin cerita rutinitas sekolahmu ke teman: kapan sekolah dimulai, kapan kamu belajar/pakai internet cari tugas, dan urutan kegiatan sebelum & sesudah sekolah.",
+            "goals": [
+              "Menceritakan kegiatan yang sudah selesai dengan V了",
+              "Menyatakan urutan kegiatan dengan 以後",
+              "Menyatakan kegiatan yang langsung menyusul dengan 一...就..."
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美今天很①，她寫了②，也上網查了資料。她已經三③了，下星期就要④了。每天她背著⑤去上學，回家以後才洗澡。",
+              "options": [
+                "用功",
+                "作業",
+                "年級",
+                "開學",
+                "書包",
+                "車站"
+              ],
+              "answers": [
+                "用功",
+                "作業",
+                "年級",
+                "開學",
+                "書包"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "妳一上學就洗澡嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "不是，我先背書包去上學，回家以後才洗澡。"
+                }
+              ],
+              "question": "美美什麼時候洗澡？",
+              "options": [
+                "一上學就洗澡",
+                "去學校以前洗澡",
+                "回家以後才洗澡",
+                "在學校洗澡"
+              ],
+              "answer": "C"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "動詞+了",
+              "explanation": "Menyatakan aksi sudah selesai dilakukan",
+              "example": "我寫了作業。"
+            },
+            {
+              "pattern": "...以後",
+              "explanation": "Menyatakan sesuatu terjadi setelah suatu kegiatan",
+              "example": "回家以後才洗澡。"
+            },
+            {
+              "pattern": "一...就...",
+              "explanation": "Aksi B terjadi langsung setelah aksi A",
+              "example": "妳一上學就洗澡嗎？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa cerita kegiatan yang sudah selesai pakai V了",
+              "Saya bisa pakai 以後 untuk urutan kegiatan",
+              "Saya bisa pakai 一...就... untuk kegiatan yang langsung menyusul",
+              "Saya paham dialog pendek soal rutinitas sekolah"
+            ],
+            "prompt": "Rutinitas mana yang paling mirip dengan rutinitasmu sendiri? Coba ceritakan pakai grammar di atas."
+          }
         },
         {
           "id": "b3",
@@ -2105,7 +2253,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu sedang makan di restoran dan berbelanja jajanan — perlu tanya harga/jumlah dan menyatakan rasa yang kamu suka.",
+            "goals": [
+              "Menyatakan sesuatu berlebihan dengan 太...了",
+              "Menanyakan jumlah dengan 幾/多少",
+              "Membandingkan banyak/sedikit dengan 多/少"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "這家餐廳的①有很多道菜。我要一份②和一杯③，不要太辣，要④一點的。飯後我們去⑤買蛋糕。",
+              "options": [
+                "菜單",
+                "點心",
+                "果汁",
+                "鹹",
+                "百貨公司",
+                "飯店"
+              ],
+              "answers": [
+                "菜單",
+                "點心",
+                "果汁",
+                "鹹",
+                "百貨公司"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "美美，超市的冰淇淋太貴了，我們去百貨公司看看。"
+                },
+                {
+                  "speaker": "B",
+                  "text": "好，那裡的蛋糕跟甜點也很有名。"
+                }
+              ],
+              "question": "他們接下來要去哪裡？",
+              "options": [
+                "超市",
+                "百貨公司",
+                "餐廳",
+                "學校"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "太+Vs+了",
+              "explanation": "Menyatakan sesuatu berlebihan/terlalu",
+              "example": "冰淇淋太貴了。"
+            },
+            {
+              "pattern": "幾／多少",
+              "explanation": "Menanyakan jumlah (幾 untuk angka kecil, 多少 untuk jumlah bebas)",
+              "example": "有多少道菜？"
+            },
+            {
+              "pattern": "多／少+名詞",
+              "explanation": "Menyatakan banyak/sedikitnya sesuatu",
+              "example": "菜單上的菜很多。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 太...了 untuk menyatakan sesuatu berlebihan",
+              "Saya bisa tanya jumlah pakai 幾/多少",
+              "Saya bisa pakai 多/少 untuk banyak/sedikit",
+              "Saya paham dialog pendek soal makanan & belanja"
+            ],
+            "prompt": "Coba sebutkan makanan favoritmu pakai 太...了 (misalnya: 這個太好吃了！)"
+          }
         },
         {
           "id": "b4",
@@ -2217,7 +2439,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu ngobrol soal olahraga: olahraga apa yang kamu bisa, sudah pernah kamu coba, dan pertandingan yang ingin ditonton.",
+            "goals": [
+              "Menyatakan kemampuan dengan 會",
+              "Menyatakan pengalaman dengan V過",
+              "Memahami dialog pendek soal olahraga"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美很喜歡運動，她會①，常常去②游泳。她也打過③和④，週末想去看足球⑤。",
+              "options": [
+                "游泳",
+                "游泳池",
+                "籃球",
+                "棒球",
+                "比賽",
+                "菜單"
+              ],
+              "answers": [
+                "游泳",
+                "游泳池",
+                "籃球",
+                "棒球",
+                "比賽"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "妳打過籃球嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "打過，我也喜歡棒球和網球。"
+                }
+              ],
+              "question": "美美打過什麼球？",
+              "options": [
+                "只打過籃球",
+                "打過籃球、棒球和網球",
+                "只打過網球",
+                "沒打過球"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "會+動詞",
+              "explanation": "Menyatakan kemampuan melakukan sesuatu",
+              "example": "妳會不會游泳？"
+            },
+            {
+              "pattern": "動詞+過",
+              "explanation": "Menyatakan pernah mengalami suatu kegiatan",
+              "example": "妳打過籃球嗎？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 會 untuk menyatakan kemampuan",
+              "Saya bisa pakai V過 untuk menyatakan pengalaman",
+              "Saya paham dialog pendek soal olahraga"
+            ],
+            "prompt": "Olahraga apa yang kamu 會 dan pernah kamu 過? Coba buat 2 kalimat."
+          }
         },
         {
           "id": "b5",
@@ -2334,7 +2624,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu mengajak teman piknik akhir pekan dan membahas persiapan: tiket, musik, foto, tempat menginap.",
+            "goals": [
+              "Meminta/memberi izin dengan 可以",
+              "Menanyakan balik secara singkat dengan 呢",
+              "Memahami dialog ajakan kegiatan santai"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美這個週末①，大同約她去②，她說可以帶③和④。他們也要上網站買門票，活動結束後還可以聽很多⑤。",
+              "options": [
+                "有空",
+                "野餐",
+                "音樂",
+                "照片",
+                "故事",
+                "菜單"
+              ],
+              "answers": [
+                "有空",
+                "野餐",
+                "音樂",
+                "照片",
+                "故事"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你們住哪個旅館？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "我們住這家，妳呢？"
+                }
+              ],
+              "question": "老王問住哪裡，大同怎麼回答？",
+              "options": [
+                "說了旅館名字並反問美美",
+                "沒有回答",
+                "說他們沒有旅館",
+                "說要去問老王"
+              ],
+              "answer": "A"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "可以+動詞",
+              "explanation": "Menyatakan izin atau kemampuan melakukan sesuatu",
+              "example": "我可以帶音樂和照片。"
+            },
+            {
+              "pattern": "...呢？",
+              "explanation": "Menanyakan balik pertanyaan yang sama secara singkat",
+              "example": "我們住這家，妳呢？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 可以 untuk minta/memberi izin",
+              "Saya bisa pakai 呢 untuk bertanya balik singkat",
+              "Saya paham dialog ajakan piknik/kegiatan santai"
+            ],
+            "prompt": "Coba ajak temanmu piknik pakai kalimat dengan 可以, lalu tanya balik pakai 呢。"
+          }
         },
         {
           "id": "b6",
@@ -2446,7 +2804,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu memperkenalkan keluarga besarmu dan menjawab pertanyaan data pribadi (alamat, sekolah, bahasa).",
+            "goals": [
+              "Menyatakan bentuk jamak untuk orang dengan 們",
+              "Menambahkan info sejenis dengan 也",
+              "Memahami dialog perkenalan keluarga besar & data pribadi"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "大同的①很大，爺爺、奶奶、②、③都住在一起，他們都很④。大同的⑤在學校附近。",
+              "options": [
+                "家庭",
+                "叔叔",
+                "阿姨",
+                "年輕",
+                "地址",
+                "菜單"
+              ],
+              "answers": [
+                "家庭",
+                "叔叔",
+                "阿姨",
+                "年輕",
+                "地址"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你上高中還是小學？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "我上高中，妹妹上小學。"
+                }
+              ],
+              "question": "誰上小學？",
+              "options": [
+                "大同",
+                "老王",
+                "妹妹",
+                "爺爺"
+              ],
+              "answer": "C"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "人稱名詞+們",
+              "explanation": "Menandai bentuk jamak untuk kata ganti/sebutan orang",
+              "example": "叔叔阿姨們也很年輕。"
+            },
+            {
+              "pattern": "也",
+              "explanation": "Menyatakan hal yang sama/menambahkan info sejenis",
+              "example": "叔叔阿姨們也很年輕。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 們 untuk bentuk jamak orang",
+              "Saya bisa pakai 也 untuk menambahkan info sejenis",
+              "Saya paham dialog perkenalan keluarga besar"
+            ],
+            "prompt": "Coba perkenalkan anggota keluarga besarmu pakai 們 dan 也。"
+          }
         },
         {
           "id": "b7",
@@ -2533,7 +2959,73 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Temanmu sedikit sakit dan perlu ke rumah sakit — kamu belajar menyatakan gejala ringan dan apa yang boleh/tidak boleh dilakukan.",
+            "goals": [
+              "Menyatakan gejala ringan dengan 有（一）點+sifat",
+              "Menyatakan kemampuan/syarat dengan 能",
+              "Memahami dialog pendek soal ke rumah sakit"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美的①有一點紅，②也有一點痛，她要去③。③的④人很好，她說美美不能吃太多才能健康。",
+              "options": [
+                "臉",
+                "肚子",
+                "醫院",
+                "護士",
+                "頭髮"
+              ],
+              "answers": [
+                "臉",
+                "肚子",
+                "醫院",
+                "護士"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "那個病人是誰？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "他是我朋友，他的頭髮很長。"
+                }
+              ],
+              "question": "那個病人的頭髮怎麼樣？",
+              "options": [
+                "很短",
+                "很長",
+                "沒有頭髮",
+                "不知道"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "有（一）點+Vs",
+              "explanation": "Menyatakan tingkat ringan suatu sifat/keadaan (biasanya kurang mengenakkan)",
+              "example": "臉有一點紅。"
+            },
+            {
+              "pattern": "能+動詞",
+              "explanation": "Menyatakan mampu/memenuhi syarat melakukan sesuatu",
+              "example": "多休息才能健康。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 有（一）點 untuk gejala ringan",
+              "Saya bisa pakai 能 untuk menyatakan kemampuan/syarat",
+              "Saya paham dialog pendek soal ke rumah sakit"
+            ],
+            "prompt": "Coba ceritakan kalau kamu 有一點 sakit apa, dan apa yang harus dilakukan supaya 能 sembuh."
+          }
         },
         {
           "id": "b8",
@@ -2635,7 +3127,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu tanya soal pekerjaan temanmu (kantor, jam kerja) dan minta bantuan menyelesaikan masalah dengan suatu cara.",
+            "goals": [
+              "Menyatakan alat/cara dengan 用",
+              "Meminta/menawarkan bantuan dengan 幫",
+              "Memahami dialog pendek soal kerja & kantor pos"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美在①上班，②很大。她六點③，今天要去④寄信，也要買⑤。",
+              "options": [
+                "銀行",
+                "辦公室",
+                "下班",
+                "郵局",
+                "郵票",
+                "學校"
+              ],
+              "answers": [
+                "銀行",
+                "辦公室",
+                "下班",
+                "郵局",
+                "郵票"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你可以用這個辦法幫我嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "可以，我幫你，你會有進步的。"
+                }
+              ],
+              "question": "大同答應要做什麼？",
+              "options": [
+                "拒絕幫忙",
+                "用辦法幫老王",
+                "自己進步",
+                "去銀行上班"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "用+名詞/方法",
+              "explanation": "Menyatakan alat atau cara yang dipakai",
+              "example": "用這個辦法。"
+            },
+            {
+              "pattern": "幫+人",
+              "explanation": "Menyatakan membantu seseorang melakukan sesuatu",
+              "example": "我幫你。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 用 untuk menyatakan cara/alat",
+              "Saya bisa pakai 幫 untuk menawarkan bantuan",
+              "Saya paham dialog pendek soal kerja & kantor pos"
+            ],
+            "prompt": "Coba minta bantuan temanmu pakai 幫, dan jelaskan caranya pakai 用。"
+          }
         },
         {
           "id": "b9",
@@ -2787,7 +3347,76 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu menyambut tamu ke rumah, mengucapkan selamat tahun baru, dan makan malam bersama — modul ini gabungan beberapa situasi sosial sehari-hari (>15 kata, ditandai sebagai modul gabungan).",
+            "goals": [
+              "Menyambut tamu & basa-basi sosial (歡迎/不好意思/不客氣)",
+              "Mengucapkan selamat & harapan baik dengan 祝",
+              "Menanyakan alasan dengan 為什麼, dan memahami dialog makan malam"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "大同①美美來他家，他們可以②。美美說：③，我來晚了。大同說：④，快進來坐。過年的時候，大同⑤美美身體健康。",
+              "options": [
+                "歡迎",
+                "聊天",
+                "不好意思",
+                "不客氣",
+                "祝",
+                "菜單"
+              ],
+              "answers": [
+                "歡迎",
+                "聊天",
+                "不好意思",
+                "不客氣",
+                "祝"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "這是什麼？很奇怪。"
+                },
+                {
+                  "speaker": "B",
+                  "text": "這是炸的東西，放在盤子上，要用匙吃。"
+                }
+              ],
+              "question": "這道菜要用什麼吃？",
+              "options": [
+                "筷子",
+                "匙",
+                "手",
+                "刀子"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "就",
+              "explanation": "Menegaskan sesuatu terjadi cepat/langsung. ⚠️ Catatan audit: pola ini TIDAK muncul di dialog B9 yang ada sekarang — contoh di bawah dikonstruksi terpisah, belum diverifikasi ke dialog aktual (lihat ledger.md).",
+              "example": "你來，我們就開始吃飯。"
+            },
+            {
+              "pattern": "為什麼",
+              "explanation": "Menanyakan alasan/sebab. ⚠️ Sama seperti di atas — TIDAK muncul di dialog B9 yang ada, contoh dikonstruksi terpisah.",
+              "example": "你為什麼來晚了？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa menyambut tamu & basa-basi sosial",
+              "Saya bisa mengucapkan selamat pakai 祝",
+              "Saya bisa tanya alasan pakai 為什麼",
+              "Saya paham dialog makan malam & tahun baru"
+            ],
+            "prompt": "Modul ini gabungan banyak situasi sosial — bagian mana yang paling kamu ingat? Coba ucapkan 祝 ke temanmu."
+          }
         }
       ]
     },
@@ -2905,7 +3534,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu naik transportasi umum di kota besar (MRT/kereta bawah tanah) — mencari pintu masuk, platform, dan tempat parkir.",
+            "goals": [
+              "Menyatakan durasi kira-kira dengan 數+左右",
+              "Memakai 就 untuk penegasan waktu/lokasi",
+              "Memahami dialog pendek naik MRT/kereta"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "①的入口在哪裡？走過地鐵站的②，往前走五分鐘左右就到了。③在公路旁邊，機車跟汽車都可以停。美美要④捷運，找⑤很容易。",
+              "options": [
+                "捷運",
+                "出口",
+                "停車場",
+                "搭",
+                "座位",
+                "飯店"
+              ],
+              "answers": [
+                "捷運",
+                "出口",
+                "停車場",
+                "搭",
+                "座位"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "月台在哪一邊？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "月台就在前面，走幾步就到了。"
+                }
+              ],
+              "question": "月台在哪裡？",
+              "options": [
+                "很遠",
+                "就在前面，走幾步就到",
+                "在停車場",
+                "不知道"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "就",
+              "explanation": "Menegaskan 'segera/sudah dekat'",
+              "example": "月台就在前面，走幾步就到了。"
+            },
+            {
+              "pattern": "以上/下/內/外",
+              "explanation": "Angka/jumlah + 以上/下/內/外, menyatakan batas suatu rentang. ⚠️ Catatan audit: pola ini TIDAK muncul di dialog C1 yang ada sekarang — contoh di bawah dikonstruksi terpisah (lihat ledger.md).",
+              "example": "五分鐘以內就到了。"
+            },
+            {
+              "pattern": "數+左右",
+              "explanation": "Menyatakan perkiraan jumlah/waktu",
+              "example": "走五分鐘左右就到了。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 數+左右 untuk perkiraan waktu",
+              "Saya bisa pakai 就 untuk penegasan lokasi/waktu",
+              "Saya bisa pakai 以上/下/內/外 untuk batas jumlah",
+              "Saya paham dialog pendek naik MRT"
+            ],
+            "prompt": "Coba jelaskan berapa lama waktu dari rumahmu ke sekolah pakai 數+左右。"
+          }
         },
         {
           "id": "c2",
@@ -3017,7 +3720,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu membahas jadwal sekolah temanmu: apakah dia terlambat, rencana liburan, dan kapan lulus.",
+            "goals": [
+              "Menyatakan urutan kegiatan dengan 先...再...",
+              "Menyatakan dua kegiatan bersamaan dengan 一邊...一邊...",
+              "Menyatakan sesuatu yang akan segera terjadi dengan 快要...了"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美今天沒有①，她先寫②，再去學校，準時到③。④快要到了，她想多讀書，也想學⑤。",
+              "options": [
+                "遲到",
+                "日記",
+                "校園",
+                "暑假",
+                "漢字",
+                "飯店"
+              ],
+              "answers": [
+                "遲到",
+                "日記",
+                "校園",
+                "暑假",
+                "漢字"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "這學期妳畢業了嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "還沒，我下學期才畢業。"
+                }
+              ],
+              "question": "美美這學期畢業了嗎？",
+              "options": [
+                "已經畢業了",
+                "還沒，下學期才畢業",
+                "永遠不畢業",
+                "不知道"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "先...再...",
+              "explanation": "Menyatakan urutan: lakukan A dulu, lalu B",
+              "example": "我先寫日記，再去學校。"
+            },
+            {
+              "pattern": "一邊...一邊...",
+              "explanation": "Menyatakan dua kegiatan dilakukan bersamaan",
+              "example": "一邊出門旅行，一邊練習中文。"
+            },
+            {
+              "pattern": "快要...了",
+              "explanation": "Menyatakan sesuatu akan segera terjadi",
+              "example": "暑假快要到了。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 先...再... untuk urutan kegiatan",
+              "Saya bisa pakai 一邊...一邊... untuk dua kegiatan bersamaan",
+              "Saya bisa pakai 快要...了 untuk sesuatu yang akan terjadi",
+              "Saya paham dialog jadwal sekolah & liburan"
+            ],
+            "prompt": "Ceritakan rutinitas pagimu pakai 先...再..., lalu sebutkan sesuatu yang 快要...了 dalam hidupmu."
+          }
         },
         {
           "id": "c3",
@@ -3124,7 +3901,81 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu makan di restoran seafood dan lanjut belanja akhir pekan — membahas kesegaran makanan, harga, dan cara bayar.",
+            "goals": [
+              "Menyatakan superlatif dengan Vs極了",
+              "Menambahkan info dengan 除了...以外還...",
+              "Menyatakan (tidak) mampu membeli dengan V得/不起"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "這家餐廳的①新鮮②。除了海鮮以外，③跟④也很好吃，可是好貴，我怕買⑤。今天打折，我們可以省一點。",
+              "options": [
+                "海鮮",
+                "極了",
+                "牛排",
+                "沙拉",
+                "不起",
+                "郵局"
+              ],
+              "answers": [
+                "海鮮",
+                "極了",
+                "牛排",
+                "沙拉",
+                "不起"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "妳要不要去逛街？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "好啊，可是週末排隊的人很多。"
+                }
+              ],
+              "question": "美美覺得週末逛街怎麼樣？",
+              "options": [
+                "人很少",
+                "排隊的人很多",
+                "不想去",
+                "已經去過了"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "Vs+極了",
+              "explanation": "Menyatakan tingkat sangat tinggi (superlatif)",
+              "example": "海鮮新鮮極了。"
+            },
+            {
+              "pattern": "除了...以外還...",
+              "explanation": "Menyatakan tidak hanya A, tapi juga B",
+              "example": "除了海鮮以外還有牛排。"
+            },
+            {
+              "pattern": "V得/不起",
+              "explanation": "Menyatakan mampu/tidak mampu (secara finansial) melakukan sesuatu",
+              "example": "我怕買不起。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai Vs極了 untuk superlatif",
+              "Saya bisa pakai 除了...以外還... untuk menambah info",
+              "Saya bisa pakai V得/不起 untuk menyatakan mampu/tidak mampu",
+              "Saya paham dialog soal makan & belanja"
+            ],
+            "prompt": "Coba sebutkan makanan yang 好吃極了 dan sesuatu yang kamu rasa 買不起。"
+          }
         },
         {
           "id": "c4",
@@ -3231,7 +4082,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu memperkenalkan lebih detail silsilah keluarga besar (dari pihak ayah) dan membedakan sebutan yang mirip.",
+            "goals": [
+              "Menyatakan izin/menyuruh dengan 讓",
+              "Menyatakan panggilan/sebutan dengan 叫",
+              "Membedakan sebutan keluarga besar yang mirip"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "大同的①、②是媽媽的爸爸媽媽。③是爸爸的妹妹，④是爸爸的姊姊。老王的⑤和孫女同班。",
+              "options": [
+                "外公",
+                "外婆",
+                "姑姑",
+                "姑媽",
+                "孫子",
+                "飯店"
+              ],
+              "answers": [
+                "外公",
+                "外婆",
+                "姑姑",
+                "姑媽",
+                "孫子"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "他們讓你叫他們爺爺奶奶嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "不用，我叫他們外公外婆。"
+                }
+              ],
+              "question": "大同怎麼稱呼媽媽的爸爸媽媽？",
+              "options": [
+                "爺爺奶奶",
+                "外公外婆",
+                "伯父伯母",
+                "姑姑姑媽"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "讓+人+動詞",
+              "explanation": "Menyatakan mengizinkan/menyuruh seseorang melakukan sesuatu",
+              "example": "他們讓你叫他們爺爺奶奶嗎？"
+            },
+            {
+              "pattern": "叫",
+              "explanation": "Menyatakan sebutan/panggilan",
+              "example": "我叫他們外公外婆。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 讓 untuk izin/menyuruh",
+              "Saya bisa pakai 叫 untuk sebutan/panggilan",
+              "Saya bisa bedakan 姑姑 vs 姑媽, 外公外婆 vs 爺爺奶奶"
+            ],
+            "prompt": "Coba gambar pohon keluargamu dan sebutkan tiap anggota pakai kosakata modul ini."
+          }
         },
         {
           "id": "c5",
@@ -3343,7 +4262,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu kenalan baru dan saling tanya latar belakang: status pelajar, asal, bahasa ibu, usia, status menikah.",
+            "goals": [
+              "Menyatakan sesuatu baru terjadi setelah syarat terpenuhi dengan 才",
+              "Menyatakan usia masih muda/sedikit dengan 才",
+              "Menceritakan latar belakang diri dengan kosakata identitas"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美是①，她是②，中學畢業以後③上大學。她的④是中文，是在⑤學的。",
+              "options": [
+                "大學生",
+                "華人",
+                "才",
+                "母語",
+                "國小",
+                "飯店"
+              ],
+              "answers": [
+                "大學生",
+                "華人",
+                "才",
+                "母語",
+                "國小"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你多大年紀了？你結婚了嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "我才二十五歲，還沒結婚。"
+                }
+              ],
+              "question": "大同結婚了嗎？",
+              "options": [
+                "已經結婚了",
+                "還沒結婚，才二十五歲",
+                "不知道",
+                "五十歲才結婚"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "才 (baru terjadi setelah syarat)",
+              "explanation": "Menyatakan sesuatu terjadi lebih lambat dari perkiraan/setelah suatu syarat",
+              "example": "中學畢業以後才上大學。"
+            },
+            {
+              "pattern": "才 (jumlah/usia kecil)",
+              "explanation": "Dipakai sebelum angka untuk menyatakan 'baru/hanya' sedikit",
+              "example": "我才二十五歲。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 才 untuk sesuatu yang baru terjadi setelah syarat terpenuhi",
+              "Saya bisa pakai 才 untuk menyatakan usia masih muda/sedikit",
+              "Saya bisa cerita latar belakang diri (asal, bahasa ibu, status)"
+            ],
+            "prompt": "Coba perkenalkan dirimu: dari mana asalmu, apa bahasa ibumu, dan kapan kamu 才 mulai belajar bahasa Mandarin."
+          }
         },
         {
           "id": "c6",
@@ -3455,7 +4442,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu menjenguk teman yang tampak kurang sehat — mendeskripsikan gejala lebih detail dan menyarankan pergi berobat.",
+            "goals": [
+              "Menyatakan kesan dari penampilan dengan V起來",
+              "Memberi saran dengan 應該",
+              "Mendeskripsikan gejala sakit lebih detail"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美看①不太好，她②，也③，還流鼻水。她應該去④買藥。她覺得⑤不太好。",
+              "options": [
+                "起來",
+                "發燒",
+                "咳嗽",
+                "藥房",
+                "精神",
+                "菜單"
+              ],
+              "answers": [
+                "起來",
+                "發燒",
+                "咳嗽",
+                "藥房",
+                "精神"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你的眼和身高都正常，不嚴重，休息一下就好，背也不痛吧？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "對，背不痛，咳也不嚴重。"
+                }
+              ],
+              "question": "大同的狀況嚴重嗎？",
+              "options": [
+                "很嚴重，要住院",
+                "不嚴重，休息一下就好",
+                "完全沒事",
+                "需要馬上去醫院"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "V+起來",
+              "explanation": "Menyatakan kesan dari luar/penampilan",
+              "example": "妳看起來不太好。"
+            },
+            {
+              "pattern": "應該+動詞",
+              "explanation": "Memberi saran/menyatakan seharusnya",
+              "example": "妳應該去藥房買藥。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai V起來 untuk mendeskripsikan kesan dari penampilan",
+              "Saya bisa pakai 應該 untuk memberi saran",
+              "Saya bisa mendeskripsikan gejala sakit lebih detail"
+            ],
+            "prompt": "Kalau temanmu 看起來不太好, saran apa yang akan kamu berikan pakai 應該？"
+          }
         },
         {
           "id": "c7",
@@ -3557,7 +4612,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu merencanakan kegiatan akhir pekan yang lebih beragam: mendaki, ke bioskop, pameran, sambil membicarakan mana yang seru/membosankan.",
+            "goals": [
+              "Menggunakan reduplikasi kata kerja untuk kesan santai",
+              "Menggunakan VV看 untuk mengajak mencoba",
+              "Membedakan kegiatan yang 有趣 vs 無聊"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "假日大同和美美要去①，也可以②。晚上他們去③看電影，很④，在家看新聞很⑤。",
+              "options": [
+                "爬山",
+                "拍照",
+                "電影院",
+                "有趣",
+                "無聊",
+                "郵局"
+              ],
+              "answers": [
+                "爬山",
+                "拍照",
+                "電影院",
+                "有趣",
+                "無聊"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "你喜歡玩遊戲嗎？我們去參觀畫家的畫展，也可以散散步。"
+                },
+                {
+                  "speaker": "B",
+                  "text": "好，我也要訂票，順便看看雜誌，跳跳舞也不錯。"
+                }
+              ],
+              "question": "老王建議做什麼活動？",
+              "options": [
+                "只打遊戲",
+                "參觀畫展和散步",
+                "去爬山",
+                "看電影"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "動詞重疊 (AA / ABAB)",
+              "explanation": "Reduplikasi kata kerja, memberi kesan santai/sebentar",
+              "example": "可以逛逛、散散步。"
+            },
+            {
+              "pattern": "V+V+看",
+              "explanation": "Mengajak/menyatakan mencoba melakukan sesuatu",
+              "example": "你想不想試試看？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai reduplikasi kata kerja untuk kesan santai",
+              "Saya bisa pakai VV看 untuk mengajak coba sesuatu",
+              "Saya bisa bedakan kegiatan 有趣 vs 無聊"
+            ],
+            "prompt": "Ajak temanmu coba kegiatan baru pakai pola VV看 (misalnya: 我們去試試看...)。"
+          }
         },
         {
           "id": "c8",
@@ -3699,7 +4822,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu membahas pekerjaan sambilan temanmu dan urusan di bank/kantor pos — modul gabungan (>15 kata) karena domainnya luas.",
+            "goals": [
+              "Menyatakan kewajiban dengan 必須",
+              "Menyatakan tidak perlu dengan 不用/不必",
+              "Memahami dialog soal kerja & urusan bank/pos"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美一邊①一邊教書，她②寫報告。今天不用加班，開完會就③了。商人要去銀行④錢，也要拿零錢，還要寄⑤。",
+              "options": [
+                "打工",
+                "必須",
+                "放假",
+                "存",
+                "信封",
+                "菜單"
+              ],
+              "answers": [
+                "打工",
+                "必須",
+                "放假",
+                "存",
+                "信封"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "妳今天要加班嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "不用，我們要開會，開完會就放假了。"
+                }
+              ],
+              "question": "美美今天要加班嗎？",
+              "options": [
+                "要，加班到很晚",
+                "不用，開完會就放假",
+                "不知道",
+                "要加班一整天"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "必須+動詞",
+              "explanation": "Menyatakan kewajiban, harus dilakukan",
+              "example": "我必須寫報告。"
+            },
+            {
+              "pattern": "不用/不必+動詞",
+              "explanation": "Menyatakan tidak perlu melakukan sesuatu",
+              "example": "不用加班。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 必須 untuk kewajiban",
+              "Saya bisa pakai 不用/不必 untuk sesuatu yang tidak perlu",
+              "Saya paham dialog soal kerja sambilan & kantor pos/bank"
+            ],
+            "prompt": "Sebutkan sesuatu yang kamu 必須 lakukan minggu ini, dan sesuatu yang 不用 kamu lakukan."
+          }
         },
         {
           "id": "c9",
@@ -3791,7 +4982,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu diundang ke pesta dan membahas rencana bersama teman, sekaligus belajar bedakan 約 (janjian biasa) vs 約會 (kencan).",
+            "goals": [
+              "Menyatakan ketertarikan dengan 對...有興趣",
+              "Membedakan 約 vs 約會",
+              "Memahami dialog undangan pesta & traktir"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "大同問美美對這個①有②嗎？美美說有，她約了朋友，也準備了③。他們要④辦一個活動，並且要對客人有⑤。",
+              "options": [
+                "派對",
+                "興趣",
+                "禮物",
+                "合作",
+                "禮貌",
+                "菜單"
+              ],
+              "answers": [
+                "派對",
+                "興趣",
+                "禮物",
+                "合作",
+                "禮貌"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "妳跟他約會嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "不是約會，是普通的約，我們要合作辦一個活動。"
+                }
+              ],
+              "question": "美美和朋友是約會嗎？",
+              "options": [
+                "是約會",
+                "不是約會，是普通的約",
+                "不知道",
+                "是工作面試"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "對+對象",
+              "explanation": "Menyatakan sasaran/objek dari suatu sikap",
+              "example": "對客人有禮貌。"
+            },
+            {
+              "pattern": "對...有興趣",
+              "explanation": "Menyatakan tertarik pada sesuatu",
+              "example": "妳對這個派對有興趣嗎？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 對...有興趣 untuk menyatakan ketertarikan",
+              "Saya bisa bedakan 約 vs 約會",
+              "Saya paham dialog undangan pesta & traktir"
+            ],
+            "prompt": "Sebutkan sesuatu yang kamu 對...有興趣, pakai kalimat lengkap."
+          }
         },
         {
           "id": "c10",
@@ -3883,7 +5142,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu mengobrol soal kondisi kamar dan denah rumah — mendeskripsikan barang yang ada di suatu tempat dan yang sudah beres.",
+            "goals": [
+              "Menyatakan keberadaan benda di suatu tempat",
+              "Menyatakan hasil selesai dengan V好",
+              "Memahami dialog denah rumah & isi kamar"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "美美的①裡有一點蚊子，房間裡也放著②和沐浴乳。③上衣服掛④了。這個房子是三房兩⑤。",
+              "options": [
+                "臥房",
+                "雨傘",
+                "衣架",
+                "好",
+                "廳",
+                "菜單"
+              ],
+              "answers": [
+                "臥房",
+                "雨傘",
+                "衣架",
+                "好",
+                "廳"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "衣架上掛好了嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "掛好了。"
+                }
+              ],
+              "question": "衣架上的衣服怎麼樣了？",
+              "options": [
+                "還沒掛",
+                "掛好了",
+                "掉下來了",
+                "不知道"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "[地方]+有/放著+東西",
+              "explanation": "Menyatakan keberadaan/kemunculan sesuatu di suatu tempat",
+              "example": "房間裡也放著雨傘。"
+            },
+            {
+              "pattern": "V+好",
+              "explanation": "Menyatakan sebuah aksi selesai dengan baik/beres",
+              "example": "衣架上掛好了嗎？"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa mendeskripsikan isi ruangan",
+              "Saya bisa pakai V好 untuk menyatakan sesuatu sudah selesai dengan baik",
+              "Saya paham dialog denah rumah & kondisi kamar"
+            ],
+            "prompt": "Deskripsikan kamarmu: apa yang 放著 di sana, dan apa yang sudah kamu V好."
+          }
         },
         {
           "id": "c11",
@@ -3990,7 +5317,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Kamu membahas keamanan (ada kejadian pencurian) dan rencana merayakan hari raya khas Tionghoa (Imlek) bersama.",
+            "goals": [
+              "Menyatakan pengandaian dengan 要是...就...",
+              "Menyatakan pengandaian dengan ...的話",
+              "Membedakan hari raya khas Tionghoa vs asing"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "大同說要是有①，就要②自己，③最重要。昨天發生了一件④的事，有人偷東西。除夕的話，他們要一起過⑤。",
+              "options": [
+                "危險",
+                "保護",
+                "安全",
+                "可怕",
+                "春節",
+                "菜單"
+              ],
+              "answers": [
+                "危險",
+                "保護",
+                "安全",
+                "可怕",
+                "春節"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "除夕的話，我們一起過春節，好嗎？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "好，春節是中式的節日，聖誕老人是外國的。"
+                }
+              ],
+              "question": "春節是哪一種節日？",
+              "options": [
+                "外國的節日",
+                "中式的節日",
+                "聖誕老人的節日",
+                "沒有特別種類"
+              ],
+              "answer": "B"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "要是...就...",
+              "explanation": "Menyatakan pengandaian: kalau A, maka B",
+              "example": "要是有危險，你就要保護自己。"
+            },
+            {
+              "pattern": "...的話",
+              "explanation": "Menyatakan pengandaian (lebih santai/lisan)",
+              "example": "除夕的話，我們一起過春節。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 要是...就... untuk pengandaian",
+              "Saya bisa pakai ...的話 untuk pengandaian versi santai",
+              "Saya bisa bedakan hari raya khas Tionghoa vs asing"
+            ],
+            "prompt": "Coba buat kalimat pengandaian pakai 要是...就... tentang keamanan diri."
+          }
         },
         {
           "id": "c12",
@@ -4137,7 +5532,75 @@
                 }
               ]
             }
-          ]
+          ],
+          "intro": {
+            "context": "Modul campuran (>15 kata) — obrolan warung, cuaca malam, PR matematika, dan isu lingkungan, disatukan karena masing-masing sisa kosakata terlalu sedikit untuk jadi modul sendiri.",
+            "goals": [
+              "Menyatakan tren meningkat dengan 越來越",
+              "Menambahkan alasan/info dengan 而且",
+              "Memahami dialog campuran (warung/cuaca/sekolah/lingkungan)"
+            ]
+          },
+          "task": {
+            "cloze": {
+              "text": "這家店的主人做生意做得①好。天氣②的，也看不到③。這一題要用④，而且要小心。現在社會很重視⑤，大家都不喜歡污染。",
+              "options": [
+                "越來越",
+                "涼涼",
+                "星星",
+                "乘",
+                "環保",
+                "菜單"
+              ],
+              "answers": [
+                "越來越",
+                "涼涼",
+                "星星",
+                "乘",
+                "環保"
+              ]
+            },
+            "listening": {
+              "dialog": [
+                {
+                  "speaker": "A",
+                  "text": "這一題要用乘還是除？"
+                },
+                {
+                  "speaker": "B",
+                  "text": "要用乘，而且要小心，這是數學題。"
+                }
+              ],
+              "question": "這一題要用什麼算？",
+              "options": [
+                "加",
+                "減",
+                "乘",
+                "除"
+              ],
+              "answer": "C"
+            }
+          },
+          "grammarFocus": [
+            {
+              "pattern": "越來越+Vs",
+              "explanation": "Menyatakan sifat yang terus meningkat/berubah",
+              "example": "做生意做得越來越好。"
+            },
+            {
+              "pattern": "而且",
+              "explanation": "Menambahkan info/alasan lanjutan",
+              "example": "要用乘，而且要小心。"
+            }
+          ],
+          "reflection": {
+            "checklist": [
+              "Saya bisa pakai 越來越 untuk tren yang meningkat",
+              "Saya bisa pakai 而且 untuk menambah info/alasan",
+              "Saya paham dialog campuran (warung, cuaca, sekolah, lingkungan)"
+            ],
+            "prompt": "Ini modul terakhir Volume 3! Coba buat 1 kalimat pakai 越來越 tentang kemampuan bahasa Mandarinmu sendiri."
+          }
         }
       ]
     }

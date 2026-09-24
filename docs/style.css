@@ -178,5 +178,47 @@
   .speaker{display:block;font-size:11px;color:var(--ink-faint);margin-bottom:2px;font-family:"Source Sans 3",sans-serif;}
   .hanzi-line{font-family:"Noto Sans TC",sans-serif;}
 
+  /* intro / goals (Tahap 1) */
+  .intro-block{
+    background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;
+  }
+  .intro-block p{margin:0 0 12px;color:var(--ink-soft);font-size:14.5px;line-height:1.7;}
+  .goal-list{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:6px;}
+  .goal-list li{font-size:14px;color:var(--ink);padding-left:22px;position:relative;}
+  .goal-list li::before{content:"✓";position:absolute;left:0;color:var(--jade);font-weight:700;}
+
+  /* 溝通任務 (Tahap 4) */
+  .task-block{display:flex;flex-direction:column;gap:16px;}
+  .task-card{
+    background:var(--paper-raised);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;
+  }
+  .task-card h4{margin:0 0 12px;font-size:13px;font-weight:600;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.06em;}
+  .cloze-text{font-size:16.5px;line-height:1.95;color:var(--ink);}
+  .cloze-text .blank-num{color:var(--vermillion);font-weight:700;}
+  .option-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
+  .option-chip{font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line-strong);background:var(--paper);color:var(--ink-soft);}
+  .qa-dialog{margin-bottom:10px;}
+  .qa-question{font-weight:600;margin:10px 0 8px;font-size:15px;}
+  .qa-options{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:14px;color:var(--ink-soft);}
+  details.answer-reveal{margin-top:12px;font-size:13px;}
+  details.answer-reveal summary{cursor:pointer;color:var(--jade);font-weight:600;}
+  details.answer-reveal .answer-text{margin-top:6px;color:var(--ink-soft);}
+
+  /* 語法聚焦 (Tahap 5) */
+  .grammar-focus-list{display:flex;flex-direction:column;gap:12px;}
+  .gf-card{background:var(--paper-raised);border:1px solid var(--line);border-radius:10px;padding:14px 16px;}
+  .gf-pattern{font-size:16px;font-weight:700;color:var(--jade);}
+  .gf-explanation{font-size:13.5px;color:var(--ink-soft);margin-top:4px;line-height:1.6;}
+  .gf-example{font-size:14.5px;margin-top:8px;}
+  .gf-example::before{content:"例：";color:var(--ink-faint);}
+
+  /* 反思與進度 (Tahap 6) */
+  .reflection-block .checklist{list-style:none;margin:0 0 14px;padding:0;display:flex;flex-direction:column;gap:6px;}
+  .reflection-block .checklist li{font-size:14px;padding-left:24px;position:relative;color:var(--ink);}
+  .reflection-block .checklist li::before{content:"☐";position:absolute;left:0;color:var(--ink-faint);}
+  .reflection-prompt{font-style:italic;color:var(--ink-soft);font-size:14px;border-left:3px solid var(--jade);padding-left:12px;margin:0;}
+
   footer{padding:36px 0 60px;font-size:12.5px;color:var(--ink-faint);}
   footer a{color:var(--jade);}

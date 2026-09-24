@@ -102,6 +102,49 @@ Contoh cara mengisi (hapus/ganti saat bab pertama dibuat):
 ---
 
 ## Catatan Status
+- **2026-09-24 — Semua 8 titik bentrok CLAUDE.md vs prinsip-thesis.md
+  DIPUTUSKAN Carli.** Detail lengkap tiap poin ada di `CLAUDE.md` bagian
+  "Prinsip thesis". Ringkasan: #1/#3/#5/#8 CLOSED (tinggal formalitas, sudah
+  sesuai praktik); #2/#4 CLOSED tapi menyimpang sadar dari prinsip-thesis.md
+  (Aturan Inti menang, ditandai eksplisit sebagai keputusan sadar); #4 masih
+  ada tugas kecil terbuka (tandai retroaktif alasan tiap modul dengan grammar
+  >2); #6 CLOSED prinsipnya (prinsip-thesis.md menang), implementasi
+  MENYUSUL di entri di bawah; #7 CLOSED, 34 modul FINAL.
+- **2026-09-24 — Implementasi #6 SELESAI: 4 tahap TBLL yang hilang
+  ditambahkan ke semua 21 modul Volume 2 & 3 (B1–B9, C1–C12).** Tiap modul
+  sekarang punya field baru di `web/docs/modules.json`: `intro` (情境導入 —
+  konteks + 2-3 tujuan SRL), `task` (溝通任務 — cloze 4-5 titik kosong gaya
+  Reading Part 4 + 1 soal listening-style gaya Listening Part 4, dialog+Q&A
+  4 pilihan), `grammarFocus` (語法聚焦 — pattern+penjelasan+contoh per poin
+  grammar modul), `reflection` (反思與進度 — checklist self-check + 1 prompt
+  reflektif). Volume 1 (A0) SENGAJA TIDAK disentuh — tetap pola 2-tahap lama
+  sesuai keputusan #6 (A0 boleh vocabulary-first).
+  - `web/docs/index.html` & `style.css` diperbarui untuk render 6 tahap
+    penuh (dengan penomoran ulang: Tahap 1 情境導入 → 2 情境對話 → 3 詞彙 →
+    4 溝通任務 → 5 語法聚焦 → 6 反思與進度) khusus untuk modul yang punya
+    field `intro` (yaitu semua modul Volume 2/3); modul Volume 1 tetap pakai
+    label lama "Tahap A — Kosakata" / "Tahap B — Dialog" tanpa berubah.
+  - Divalidasi otomatis: `modules.json` valid JSON, syntax JS index.html
+    valid (`node --check`), tiap cloze punya jumlah pilihan = jumlah jawaban
+    unik + 1 distraktor, tiap listening punya persis 4 pilihan. **BELUM
+    dicek visual di browser sungguhan** (tidak ada tool browser tersedia di
+    sesi ini) — kalau sempat, cek manual di
+    https://cphaniatatn-coder.github.io/modul-tocfl-banda/ setelah push.
+  - **⚠️ Temuan audit baru (belum diselesaikan, TANDAI ke Carli sesuai
+    "prinsip kejujuran metodologis"):** saat menyusun 語法聚焦, ditemukan
+    2 poin grammar yang DIKLAIM dipakai modul tapi TIDAK benar-benar muncul
+    di teks dialog yang ada — persis seperti yang sudah diperingatkan di
+    entri lama "belum melalui audit ketat per-kalimat" di bawah:
+    - **B9**: grammar tag 就1 dan 為什麼 — tidak ada di 3 dialog B9 yang ada.
+    - **C1**: grammar tag 以上/下/內/外 — tidak ada di 2 dialog C1 yang ada
+      (yang ada cuma 數+左右 dan 就2).
+    Untuk sementara, 語法聚焦 B9/C1 tetap mencantumkan kedua poin ini dengan
+    CONTOH KALIMAT YANG DIKONSTRUKSI TERPISAH (bukan diambil dari dialog
+    aktual), ditandai jelas di `modules.json` (field `explanation` ada
+    catatan ⚠️) dan tampil di situs. **Belum diputuskan**: apakah dialog B9/
+    C1 perlu direvisi supaya benar-benar memakai grammar ini (konsisten
+    dengan cara M8/M12/M14/M15 diperbaiki dulu), atau grammar tag-nya yang
+    diganti ke poin lain yang benar-benar terpakai. Tunggu keputusan Carli.
 - **2026-09-24:** Modul A1–C3 di atas adalah set "3 Tema Prioritas × 3 Volume"
   (Lokasi&Arah / Aktivitas&Jadwal / Makanan&Belanja, masing-masing di Level
   1/2/3) yang dibangun untuk artifact HTML konferensi. Kata alat/fungsi umum

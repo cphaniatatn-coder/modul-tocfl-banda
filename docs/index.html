@@ -101,17 +101,7 @@
     return wrap;
   }
 
-  function renderModulePanel(m){
-    var panel = el('div', {cls:'panel', attrs:{id:'panel-' + m.id, role:'tabpanel', 'aria-labelledby':'tab-' + m.id}});
-    var head = el('div', {cls:'module-head'});
-    var left = el('div');
-    left.appendChild(el('h3', {text: m.title}));
-    if (m.zh_title) left.appendChild(el('div', {cls:'zh-h zh', text: m.zh_title}));
-    head.appendChild(left);
-    if (m.grammar) head.appendChild(el('div', {cls:'grammar-tag', text: 'Grammar: ' + m.grammar}));
-    panel.appendChild(head);
-
-    panel.appendChild(stageLabel('Tahap A — Kosakata'));
+  function appendVocab(panel, m){
     var grid = el('div', {cls:'vocab-grid'});
     m.vocab.forEach(function(v){
       var card = el('div', {cls:'vcard'});
@@ -128,10 +118,124 @@
       supp.appendChild(document.createTextNode(' ' + m.supplementary));
       panel.appendChild(supp);
     }
+  }
 
-    if (m.dialogs && m.dialogs.length){
-      panel.appendChild(stageLabel('Tahap B — Dialog'));
-      m.dialogs.forEach(function(d){ panel.appendChild(renderDialog(d)); });
+  function renderIntro(intro){
+    var wrap = el('div', {cls:'intro-block'});
+    wrap.appendChild(el('p', {text: intro.context}));
+    var ul = el('ul', {cls:'goal-list'});
+    intro.goals.forEach(function(g){ ul.appendChild(el('li', {text: g})); });
+    wrap.appendChild(ul);
+    return wrap;
+  }
+
+  function renderTask(task){
+    var wrap = el('div', {cls:'task-block'});
+
+    var clozeCard = el('div', {cls:'task-card'});
+    clozeCard.appendChild(el('h4', {text:'Isi Bagian Rumpang (Cloze)'}));
+    var p = el('p', {cls:'cloze-text zh'});
+    task.cloze.text.split(/([①-⑩])/).forEach(function(part){
+      if (/^[①-⑩]$/.test(part)) p.appendChild(el('span', {cls:'blank-num', text: part}));
+      else if (part) p.appendChild(document.createTextNode(part));
+    });
+    clozeCard.appendChild(p);
+    var chips = el('div', {cls:'option-chips'});
+    task.cloze.options.forEach(function(o){ chips.appendChild(el('span', {cls:'option-chip zh', text: o})); });
+    clozeCard.appendChild(chips);
+    var det1 = el('details', {cls:'answer-reveal'});
+    det1.appendChild(el('summary', {text:'Lihat jawaban'}));
+    det1.appendChild(el('div', {cls:'answer-text zh', text: task.cloze.answers.join('、')}));
+    clozeCard.appendChild(det1);
+    wrap.appendChild(clozeCard);
+
+    var listenCard = el('div', {cls:'task-card'});
+    listenCard.appendChild(el('h4', {text:'Latihan Mendengar (gaya dialog TOCFL)'}));
+    var dlgWrap = el('div', {cls:'qa-dialog'});
+    task.listening.dialog.forEach(function(l){
+      var row = el('div', {cls:'bubble-row ' + (l.speaker === 'A' ? 'a' : 'b')});
+      var bubble = el('div', {cls:'bubble zh-sans'});
+      bubble.appendChild(el('span', {cls:'speaker', text: l.speaker}));
+      bubble.appendChild(document.createTextNode(l.text));
+      row.appendChild(bubble);
+      dlgWrap.appendChild(row);
+    });
+    listenCard.appendChild(dlgWrap);
+    listenCard.appendChild(el('div', {cls:'qa-question zh', text: '問：' + task.listening.question}));
+    var optList = el('ul', {cls:'qa-options'});
+    var letters = ['A','B','C','D'];
+    task.listening.options.forEach(function(o, i){ optList.appendChild(el('li', {cls:'zh', text: letters[i] + ') ' + o})); });
+    listenCard.appendChild(optList);
+    var det2 = el('details', {cls:'answer-reveal'});
+    det2.appendChild(el('summary', {text:'Lihat jawaban'}));
+    det2.appendChild(el('div', {cls:'answer-text', text: 'Jawaban: ' + task.listening.answer}));
+    listenCard.appendChild(det2);
+    wrap.appendChild(listenCard);
+
+    return wrap;
+  }
+
+  function renderGrammarFocus(list){
+    var wrap = el('div', {cls:'grammar-focus-list'});
+    list.forEach(function(g){
+      var card = el('div', {cls:'gf-card'});
+      card.appendChild(el('div', {cls:'gf-pattern zh', text: g.pattern}));
+      card.appendChild(el('div', {cls:'gf-explanation', text: g.explanation}));
+      card.appendChild(el('div', {cls:'gf-example zh-sans', text: g.example}));
+      wrap.appendChild(card);
+    });
+    return wrap;
+  }
+
+  function renderReflection(reflection){
+    var wrap = el('div', {cls:'reflection-block'});
+    var ul = el('ul', {cls:'checklist'});
+    reflection.checklist.forEach(function(c){ ul.appendChild(el('li', {text: c})); });
+    wrap.appendChild(ul);
+    wrap.appendChild(el('p', {cls:'reflection-prompt', text: reflection.prompt}));
+    return wrap;
+  }
+
+  function renderModulePanel(m){
+    var panel = el('div', {cls:'panel', attrs:{id:'panel-' + m.id, role:'tabpanel', 'aria-labelledby':'tab-' + m.id}});
+    var head = el('div', {cls:'module-head'});
+    var left = el('div');
+    left.appendChild(el('h3', {text: m.title}));
+    if (m.zh_title) left.appendChild(el('div', {cls:'zh-h zh', text: m.zh_title}));
+    head.appendChild(left);
+    if (m.grammar) head.appendChild(el('div', {cls:'grammar-tag', text: 'Grammar: ' + m.grammar}));
+    panel.appendChild(head);
+
+    var hasFull = !!m.intro;
+
+    if (hasFull){
+      panel.appendChild(stageLabel('Tahap 1 — 情境導入 (Konteks & Tujuan)'));
+      panel.appendChild(renderIntro(m.intro));
+
+      if (m.dialogs && m.dialogs.length){
+        panel.appendChild(stageLabel('Tahap 2 — 情境對話'));
+        m.dialogs.forEach(function(d){ panel.appendChild(renderDialog(d)); });
+      }
+
+      panel.appendChild(stageLabel('Tahap 3 — 詞彙'));
+      appendVocab(panel, m);
+
+      panel.appendChild(stageLabel('Tahap 4 — 溝通任務 (gaya TOCFL: cloze + listening)'));
+      panel.appendChild(renderTask(m.task));
+
+      panel.appendChild(stageLabel('Tahap 5 — 語法聚焦'));
+      panel.appendChild(renderGrammarFocus(m.grammarFocus));
+
+      panel.appendChild(stageLabel('Tahap 6 — 反思與進度'));
+      panel.appendChild(renderReflection(m.reflection));
+    } else {
+      panel.appendChild(stageLabel('Tahap A — Kosakata'));
+      appendVocab(panel, m);
+
+      if (m.dialogs && m.dialogs.length){
+        panel.appendChild(stageLabel('Tahap B — Dialog'));
+        m.dialogs.forEach(function(d){ panel.appendChild(renderDialog(d)); });
+      }
     }
     return panel;
   }
