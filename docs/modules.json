@@ -214,7 +214,45 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "右",
+              "左",
+              "右邊",
+              "位",
+              "從",
+              "過",
+              "輛"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Posisi & kendaraan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我家在路的右邊，你呢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我家在左邊，從我家到你家不遠。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我這裡有一輛車，可以送你過去。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好，謝謝你，這位是我朋友，他也要去。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "a2",
@@ -341,7 +379,89 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "早上",
+              "上午",
+              "中午",
+              "下午",
+              "晚上",
+              "現在",
+              "時候",
+              "時間",
+              "小時",
+              "分鐘",
+              "鐘頭",
+              "馬上",
+              "早",
+              "晚",
+              "有時候",
+              "多久"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Jam & jadwal harian",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "你早上幾點起床？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "我早上七點起床，上午八點上課。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "中午呢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "中午下課，下午運動，晚上做功課。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "現在是什麼時候？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "現在是上課時間，我要馬上進教室了！"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Durasi",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "老王",
+                    "text": "你今天很早來學校。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "對，我通常七點就到了，很少晚到。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "老王",
+                    "text": "準備考試要多久呢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "差不多一個鐘頭，有時候要一個多小時，只剩幾分鐘我還在看書。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "a3",
@@ -453,7 +573,98 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "八",
+              "百",
+              "半",
+              "二",
+              "九",
+              "六",
+              "千",
+              "十",
+              "四",
+              "五",
+              "元",
+              "萬",
+              "分",
+              "塊",
+              "多少",
+              "一共",
+              "一些",
+              "一樣",
+              "歲",
+              "錢"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Harga & uang",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "老闆，這碗麵多少錢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "老闆",
+                    "text": "一碗麵五十塊，一杯茶二十塊。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我要兩碗麵，一共多少錢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "老闆",
+                    "text": "一共一百塊，找你的錢是五塊三分，你有多少錢？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "我有一百元，半個小時後我再來買甜點，錢夠了。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Hitung & cerita",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我女兒今年四歲了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "四歲？好可愛！她喜歡吃麵嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "喜歡，我們家附近有六、八、九家麵店，我們常去那家開了十年的老店。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "生意應該不錯吧？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "對，聽說一個月賺好幾千塊，甚至有一年賺了快一萬塊。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "他們的菜都一樣好吃，我也想去買一些回家吃。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m1",
@@ -600,7 +811,50 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "請",
+              "請問",
+              "早安",
+              "晚安",
+              "再見",
+              "您",
+              "吧"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Sapaan sopan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "您好，請坐。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "老王",
+                    "text": "謝謝，請問您貴姓？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "我姓李。早安！"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "老王",
+                    "text": "早安！我先走了，晚安，再見！"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "好，我們明天見吧，再見！"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m6",
@@ -792,7 +1046,30 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "起來",
+              "別"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Kesan & saran",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "你看起來不太舒服，別太累了。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "好，我休息一下就好。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m8",
@@ -954,7 +1231,37 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "它",
+              "都",
+              "自己",
+              "每"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Cerita tentang hewan peliharaan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這是我的貓，它每天都跟著我。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "你自己養的嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "對，我自己照顧它。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m9",
@@ -1051,7 +1358,32 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "男",
+              "像",
+              "有點",
+              "怎麼樣"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Deskripsi singkat",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "那個男生怎麼樣？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "他長得有點像我哥哥，高高瘦瘦的。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m10",
@@ -1208,7 +1540,35 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "號",
+              "夠"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Beli sepatu",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這鞋子是幾號的？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "店員",
+                    "text": "三十八號，這個夠大嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "夠，謝謝。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m11",
@@ -1310,7 +1670,39 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "還是",
+              "因為",
+              "所以",
+              "只",
+              "最",
+              "又"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Mendengar musik",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你聽到了嗎，還是沒聽到？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我只聽到一點，因為太吵了，所以沒聽清楚。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這是我最喜歡的歌，又好聽了一次。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m12",
@@ -1417,7 +1809,37 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "為什麼",
+              "怎麼",
+              "然後",
+              "可以"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Bertanya alasan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "你為什麼不說話？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "大同",
+                    "text": "我在想怎麼回答，然後才要說。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "美美",
+                    "text": "可以告訴我嗎？"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m13",
@@ -1569,7 +1991,105 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "今年",
+              "去年",
+              "明年",
+              "後年",
+              "前年",
+              "昨天",
+              "明天",
+              "後天",
+              "前天",
+              "久",
+              "年",
+              "月",
+              "星期",
+              "星期一",
+              "星期天",
+              "禮拜天",
+              "週末",
+              "以前",
+              "跳",
+              "開",
+              "用",
+              "一月"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Tahun & bulan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你今年幾歲？去年呢？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我今年二十歲，去年十九歲，明年就二十一歲了。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "後年跟前年我們都在這裡念書。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "對，一年有十二個月，一月是最冷的時候。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Hari & minggu",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你昨天去哪裡了？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "我昨天在家，明天要上班，後天休息，前天也在家。"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這個星期你忙嗎？星期一到星期天都有事嗎？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "對，禮拜天跟週末我都要工作。"
+                  }
+                ]
+              },
+              {
+                "title": "Kata Alat — Menunggu & bergerak",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "你等很久了嗎？"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "沒有，以前才等一下。你會跳舞嗎？"
+                  },
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "會，我常常用音樂練習，也常開派對跳舞。"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "m14",
@@ -1773,7 +2293,29 @@
                 }
               ]
             }
-          ]
+          ],
+          "freePool": {
+            "words": [
+              "一定"
+            ],
+            "dialogs": [
+              {
+                "title": "Kata Alat — Keyakinan",
+                "lines": [
+                  {
+                    "side": "a",
+                    "speaker": "大同",
+                    "text": "這件事我一定要做好。"
+                  },
+                  {
+                    "side": "b",
+                    "speaker": "美美",
+                    "text": "好，我相信你一定可以。"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ]
     },

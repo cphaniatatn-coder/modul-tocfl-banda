@@ -110,6 +110,57 @@ Contoh cara mengisi (hapus/ganti saat bab pertama dibuat):
   ada tugas kecil terbuka (tandai retroaktif alasan tiap modul dengan grammar
   >2); #6 CLOSED prinsipnya (prinsip-thesis.md menang), implementasi
   MENYUSUL di entri di bawah; #7 CLOSED, 34 modul FINAL.
+- **2026-09-24 — Gap Free Pool ditemukan: ~579 kata Free Pool (153 V1 + 227
+  V2 + 199 V3) TIDAK PERNAH sampai ke `web/docs/modules.json`/situs live**,
+  cuma hidup di sheet Excel `Volume*.xlsx`. Ditemukan setelah Carli
+  mempertanyakan konsistensi dengan prinsip SRL (belajar mandiri, pilar
+  Zimmerman) — kalau pelajar cuma pakai situs, ratusan kata ini efektif
+  TIDAK PERNAH diajarkan walau dihitung "tercakup" di angka audit cakupan
+  TBCL sebelumnya (94.2%/97.7%/79.9%/70.7%). Audit silang dialog vs Free
+  Pool: dari 579 kata, **115 sudah kebetulan muncul di dialog** (belum
+  tercatat resmi), **464 benar-benar belum pernah dipakai** (97 V1 / 194 V2
+  / 173 V3). Keputusan Carli: anyam penuh ke dialog modul (bukan cuma
+  ditampilkan sebagai daftar), sesuai instruksi asli prinsip-thesis.md
+  ("工具詞 & 功能詞 disebar & didaur ke adegan — spiral Bruner"), dikerjakan
+  BERTAHAP per volume, V1 dulu.
+  - **Mekanisme**: field baru `freePool` per modul di `modules.json`
+    (`{words, dialogs}`), dirender sebagai "Tahap C — Kata Alat (Free Pool)
+    dalam Konteks" TERPISAH dari 情境對話/Tahap B inti — supaya dialog inti
+    yang sudah diaudit ketat (termasuk fix M8/M12/M14/M15) tidak disentuh.
+  - **✅ V1 (97 kata) SELESAI dianyam ke 12 dari 13 modul** (A1 7, A2 16,
+    A3 20, M1 7, M6 2, M8 4, M9 4, M10 2, M11 6, M12 4, M13 22, M15 1 = 95
+    kata; M14 sengaja 0 kata). Divalidasi otomatis: semua kata benar-benar
+    muncul di teks dialog barunya, tidak ada yang bentrok dengan
+    vocab/補充 modul manapun (zero-redundancy terjaga).
+  - **⚠️ 2 temuan data selama proses ini, WAJIB ditandai (prinsip kejujuran
+    metodologis):**
+    1. **雙 (shuāng) SALAH masuk sheet Free Pool Volume 1** — dicek silang
+       ke `TBCL 資料分享/TBCL_3_ A2 詞彙.xlsx` sheet 總表 (sumber resmi):
+       雙 tercatat 第2級, BUKAN Level 1. Ini konsisten dengan temuan lama
+       ledger sendiri ("1 dari 26 GENUINELY BELUM tercakup: 雙 ... sudah
+       ditambahkan ke Free Pool L2") — jadi kehadirannya di sheet Free Pool
+       V1 (`Volume1_TOCFL_A0.xlsx`) adalah DUPLIKASI/ERROR, bukan temuan
+       baru. **Dikeluarkan dari batch V1** (tidak dianyam ke modul manapun
+       di Volume 1). **BELUM diperbaiki di file `Volume1_TOCFL_A0.xlsx`
+       sendiri** (perlu dihapus dari sheet "Kata Alat (Free Pool)" kategori
+       Fungsi/Partikel/Ganti) — masih ada di file xlsx, cuma tidak dipakai
+       di web.
+    2. **還是 kemungkinan SALAH DIHAPUS dari M8 pada audit 2026-09-24
+       sebelumnya.** Catatan lama bilang "還是 (id 81, 第2*級) → diganti
+       有沒有". Dicek ulang ke `總表` (sumber resmi): 還是 = 序號 244,
+       **第1*級** (Level 1, bukan Level 2). id=81 di `總表` ternyata kata
+       LAIN (哪裡/哪裏/哪兒). Sepertinya audit lama salah lookup id (mungkin
+       nyasar ke file/skema id berbeda). **Belum diputuskan**: apakah M8
+       perlu dikembalikan pakai 還是, atau 有沒有 tetap dipertahankan (toh
+       sama-sama valid secara gramatikal, cuma alasan penggantian yang
+       ternyata keliru). 還是 SUDAH dipakai di batch Free Pool V1 kali ini
+       (M11) sebagai kata Level 1 yang sah — TIDAK dianggap kebocoran.
+    Metodologi cross-check: dibandingkan ke `總表` (sheet resmi gabungan
+    Level 1-3) via ekstraksi langsung XML xlsx (skrip ad-hoc, belum
+    dipermanenkan — sama seperti audit cakupan TBCL sebelumnya).
+  - **V2 (194 kata) & V3 (173 kata) BELUM dikerjakan** — direncanakan
+    giliran kerja berikutnya, sesuai keputusan Carli untuk bertahap per
+    volume.
 - **2026-09-24 — Implementasi #6 SELESAI: 4 tahap TBLL yang hilang
   ditambahkan ke semua 21 modul Volume 2 & 3 (B1–B9, C1–C12).** Tiap modul
   sekarang punya field baru di `web/docs/modules.json`: `intro` (情境導入 —

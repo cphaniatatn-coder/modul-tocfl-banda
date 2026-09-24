@@ -236,8 +236,23 @@
         panel.appendChild(stageLabel('Tahap B — Dialog'));
         m.dialogs.forEach(function(d){ panel.appendChild(renderDialog(d)); });
       }
+
+      if (m.freePool && m.freePool.dialogs && m.freePool.dialogs.length){
+        panel.appendChild(stageLabel('Tahap C — Kata Alat (Free Pool) dalam Konteks'));
+        panel.appendChild(renderFreePool(m.freePool));
+      }
     }
     return panel;
+  }
+
+  function renderFreePool(fp){
+    var wrap = el('div', {cls:'freepool-block'});
+    var note = el('p', {cls:'freepool-note'});
+    note.appendChild(document.createTextNode('Kata alat (工具詞／功能詞) level ini — dikenalkan lewat dialog pendek, bukan dijatah sebagai kosakata inti modul: '));
+    note.appendChild(el('span', {cls:'zh', text: fp.words.join('、')}));
+    wrap.appendChild(note);
+    fp.dialogs.forEach(function(d){ wrap.appendChild(renderDialog(d)); });
+    return wrap;
   }
 
   function stageLabel(txt){
